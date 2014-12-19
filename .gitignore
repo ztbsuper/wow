@@ -1,0 +1,8 @@
+# white list 
+Cache/
+Data/
+Errors/
+Launcher.db
+Logs/
+Screenshots/
+

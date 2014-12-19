@@ -1,0 +1,2 @@
+
+FoglightMode = 4

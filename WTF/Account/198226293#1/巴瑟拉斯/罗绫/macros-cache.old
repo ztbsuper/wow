@@ -1,0 +1,29 @@
+MACRO 16777221 "收草" "INV_MISC_QUESTIONMARK"
+/5 收黄金莲75G/个，小草40G/组，有多少都要，支持顺风快递COD
+END
+MACRO 16777223 "爆发" "INV_MISC_QUESTIONMARK"
+#showtooltip 豪能酒
+/cast 虎眼酒
+/cast 豪能酒
+/use 13
+/use 12
+/use 14
+END
+MACRO 16777222 "诸" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/CAST 禅意珠
+/CAST 真气波
+END
+MACRO 16777218 "进团" "INV_MISC_QUESTIONMARK"
+/RW 欢迎来到899团，YY:44732169，请保持团队和谐，一需团，进团主天赋>职业
+END
+MACRO 16777224 "防御" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 躯不坏
+/cast 散魔功
+END
+MACRO 16777219 "魂体双份" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [modifier:alt]魂体双分
+/cast [nopet]魂体双分;魂体双分：转移
+END

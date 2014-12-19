@@ -1,0 +1,29 @@
+VER 3 0000000000000001 "BF_Mount" "ability_mount_charger"
+/bfmount
+END
+VER 3 0000000000000006 "BF_Pet" "achievement_worldevent_brewmaster"
+/BFPET
+END
+VER 3 0000000000000004 "del" "INV_MISC_QUESTIONMARK"
+/run local a,i,j,l={"新鲜的长嘴泥鳅","新鲜的美味小鱼","新鲜的刺须鲶鱼"}for i=1,#a do for j=1,114 do l=GetContainerItemLink(j/23,j%23)if l and l:find(a[i])then PickupContainerItem(j/23,j%23)DeleteCursorItem()end end end
+END
+VER 3 0000000000000005 "del item" "INV_MISC_QUESTIONMARK"
+/run local i,n=0;for b=0,4 do for s=1,GetContainerNumSlots(b) do ClearCursor();i={GetContainerItemInfo(b,s)};n=i[7];if n and string.find(n,"9d9d9d") then PickupContainerItem(b,s); DeleteCursorItem() end end end
+END
+VER 3 0000000000000003 "FISH" "INV_MISC_QUESTIONMARK"
+/目标 阿诺德
+/目标 鲁玛克
+END
+VER 3 0000000000000009 "倒数" "INV_MISC_QUESTIONMARK"
+/in 1 /y --------------5
+/in 2 /y --------------4
+/in 3 /y --------------3
+/in 4 /y --------------2
+/in 5 /y --------------1
+END
+VER 3 0000000000000008 "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END
+VER 3 0000000000000007 "距离" "INV_MISC_QUESTIONMARK"
+/script SetCVar("cameraDistanceMax", 80)
+END

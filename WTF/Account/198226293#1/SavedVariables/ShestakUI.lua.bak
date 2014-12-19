@@ -1,0 +1,22 @@
+
+SavedOptions = {
+	["RaidLayout"] = "DPS",
+}
+SavedStats = {
+	["巴瑟拉斯"] = {
+		["Checkout"] = {
+			["ExpMode"] = "played",
+			["AutoSell"] = true,
+			["AutoGuildRepair"] = true,
+			["Gold"] = 748318,
+			["AutoRepair"] = true,
+			["Played"] = 62591,
+		},
+	},
+	["JunkIgnore"] = {
+	},
+}
+SavedAddonProfiles = {
+}
+SavedBindings = nil
+SavedCurrency = nil

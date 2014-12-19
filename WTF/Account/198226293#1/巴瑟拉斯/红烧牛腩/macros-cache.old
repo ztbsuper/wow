@@ -1,0 +1,4 @@
+MACRO 16777217 "精神鞭笞" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [nochanneling:精神鞭笞] 精神鞭笞
+END

@@ -1,0 +1,72 @@
+
+PitBull4DB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+		["Shields"] = {
+			["profiles"] = {
+				["Default"] = {
+					["layouts"] = {
+						["普通"] = {
+							["first"] = false,
+						},
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Checkout - 巴瑟拉斯"] = "Default",
+	},
+	["global"] = {
+		["config_version"] = 2,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["class_order"] = {
+				"WARRIOR", -- [1]
+				"DEATHKNIGHT", -- [2]
+				"PALADIN", -- [3]
+				"MONK", -- [4]
+				"PRIEST", -- [5]
+				"SHAMAN", -- [6]
+				"DRUID", -- [7]
+				"ROGUE", -- [8]
+				"MAGE", -- [9]
+				"WARLOCK", -- [10]
+				"HUNTER", -- [11]
+			},
+			["layouts"] = {
+				["普通"] = {
+					["exists"] = true,
+				},
+			},
+			["units"] = {
+				["targettargettarget"] = {
+				},
+				["focustarget"] = {
+				},
+				["player"] = {
+				},
+				["focus"] = {
+				},
+				["target"] = {
+				},
+				["pet"] = {
+				},
+			},
+			["groups"] = {
+				["小队"] = {
+					["enabled"] = true,
+					["exists"] = true,
+				},
+				["小队宠物"] = {
+					["enabled"] = true,
+					["unit_group"] = "partypet",
+					["exists"] = true,
+				},
+			},
+			["made_groups"] = true,
+		},
+	},
+}

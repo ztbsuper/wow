@@ -1,0 +1,74 @@
+VER 3 0100000000000022 "1" "INV_Misc_QuestionMark"
+/cast 毒蛇钉刺
+/cast 假死
+END
+VER 3 0100000000000020 "1假死" "INV_Misc_QuestionMark"
+/stopcasting
+/stopattack  
+/cast 假死
+END
+VER 3 0100000000000024 "jjc" "INV_Misc_QuestionMark"
+/施放 [mod]准备就绪;稳固射击
+END
+VER 3 010000000000001F "mc" "INV_Misc_QuestionMark"
+#show 稳固射击 
+/petattack 
+/施放 稳固射击(等级 2) 
+/cast 杀戮命令 
+/petpassive
+END
+VER 3 010000000000002B "MC _NEW" "INV_Misc_QuestionMark"
+/petattack 
+/castsequence reset=6/alt 奥术射击,自动射击,自动射击,自动射击
+/cast 稳固射击
+/cast 杀戮命令 
+/petpassive
+END
+VER 3 0100000000000031 "raid" "INV_Misc_QuestionMark"
+/施放 稳固射击
+/cast 杀戮命令
+/cast 沉默射击
+END
+VER 3 010000000000001B "shoot" "INV_Misc_QuestionMark"
+END
+VER 3 0100000000000021 "急速" "INV_Misc_QuestionMark"
+/cast 急速射击
+/cast 野性呼唤
+END
+VER 3 0100000000000033 "援护" "INV_Misc_QuestionMark"
+/cast [target=player]援护
+END
+VER 3 0100000000000035 "牺牲" "INV_Misc_QuestionMark"
+/cast 牺牲咆哮
+/use 战斗大师的残暴
+END
+VER 3 010000000000002D "狂暴" "INV_Misc_QuestionMark"
+/cast 野性呼唤
+/cast 挤压
+/use 狂暴者的召唤
+END
+VER 3 0100000000000038 "猎豹" "INV_Misc_QuestionMark"
+#showtooltips
+/CAST !猎豹守护
+END
+VER 3 0100000000000026 "瞄准" "INV_Misc_QuestionMark"
+#showtooltip 瞄准射击
+/cast 沉默射击
+/cast 瞄准射击
+END
+VER 3 0100000000000039 "瞄准" "INV_Misc_QuestionMark"
+#showtooltip 瞄准射击
+/cast 杀戮命令
+/cast 瞄准射击
+END
+VER 3 0100000000000037 "蝰蛇" "INV_Misc_QuestionMark"
+#showtooltips
+/CAST !蝰蛇守护
+END
+VER 3 0100000000000036 "雄鹰" "INV_Misc_QuestionMark"
+#showtooltips
+/CAST !雄鹰守护
+END
+VER 3 0100000000000028 "鹰眼术" "INV_Misc_QuestionMark"
+/cast !鹰眼术
+END

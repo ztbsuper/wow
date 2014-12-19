@@ -1,0 +1,19 @@
+VER 3 0100000000000001 "假死" "INV_MISC_QUESTIONMARK"
+#showtooltip 假死 
+/stopcasting
+/脚本 local t=GetTime()macroT=macroT or 0;if t-macroT>3 then SendChatMessage(" 萌萌不哭，站起来撸  ","emote")macroT=t;end 
+/cast 假死 
+END
+VER 3 0100000000000004 "后跳" "INV_MISC_QUESTIONMARK"
+#showtooltip 逃脱
+/脚本 local t=GetTime()macroT=macroT or 0;if t-macroT>3 then SendChatMessage(" 萌萌快跑，媳妇儿又追上来了 ","emote")macroT=t;end
+/cast 逃脱
+END
+VER 3 0100000000000003 "误导" "INV_MISC_QUESTIONMARK"
+#showtooltip 误导
+/cast [target=focus,help]误导
+/cast [target=focustarget,help]误导
+/cast [target=target,help]误导
+/cast [target=targettarget,help]误导
+/cast [target=pet,nodead,exists]误导
+END

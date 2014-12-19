@@ -1,0 +1,39 @@
+VER 3 0000000000000032 "1" "INV_Misc_QuestionMark"
+/cast 猛禽一击
+/cast 摔绊
+END
+VER 3 0000000000000033 "1" "INV_Misc_QuestionMark"
+/1 <DK>工会SW  G团，来消费龙鳞大洪流老板，老1面前
+/2 <DK>工会SW  G团，来消费龙鳞大洪流老板，老1面前
+/4 <DK>工会SW  G团，来消费龙鳞大洪流老板，老1面前
+END
+VER 3 000000000000003C "123" "INV_Misc_QuestionMark"
+/use 小巫毒面具
+/use 加速药水
+/equip 背叛者的疯狂
+END
+VER 3 000000000000003F "12312" "INV_Misc_QuestionMark"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>60 then SendChatMessage("1")T=t end end end F:SetScript("OnUpdate",X) 
+END
+VER 3 0000000000000036 "BB" "INV_Misc_QuestionMark"
+/use 女神之泪
+/use 小巫毒面具
+/equip 重伤刺刃
+/equip 背叛者的疯狂
+END
+VER 3 000000000000003E "BF_Mount" "ability_mount_charger"
+/bfmount
+END
+VER 3 0000000000000041 "BF_Pet" "achievement_worldevent_brewmaster"
+/BFPET
+END
+VER 3 0000000000000035 "BT" "INV_Misc_QuestionMark"
+END
+VER 3 0000000000000042 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] 化瘀术;  [@mouseover,exists,mod:ctrl] 化瘀术; [@mouseover,exists,mod:shift] 化瘀术
+END
+VER 3 0000000000000040 "精神鞭笞" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nochanneling:精神鞭笞] 精神鞭笞 
+END

@@ -1,0 +1,28 @@
+
+AuroraConfig = {
+	["useButtonGradientColour"] = true,
+	["chatBubbles"] = true,
+	["bags"] = false,
+	["tooltips"] = false,
+	["buttonGradientColour"] = {
+		0.3, -- [1]
+		0.3, -- [2]
+		0.3, -- [3]
+		0.3, -- [4]
+	},
+	["loot"] = true,
+	["alpha"] = 0.5,
+	["useCustomColour"] = false,
+	["customColour"] = {
+		["b"] = 1,
+		["g"] = 1,
+		["r"] = 1,
+	},
+	["enableFont"] = true,
+	["buttonSolidColour"] = {
+		0.2, -- [1]
+		0.2, -- [2]
+		0.2, -- [3]
+		1, -- [4]
+	},
+}

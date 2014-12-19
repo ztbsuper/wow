@@ -1,0 +1,10 @@
+## Interface: 60000
+## Title: AutoJunkSeller
+## Author: Madhavok of Bladefist
+## SavedVariables: AutoJunkSeller
+
+## Version: 1.0
+
+## Notes: Automatically sells all grey items.
+
+AutoJunkSeller.lua

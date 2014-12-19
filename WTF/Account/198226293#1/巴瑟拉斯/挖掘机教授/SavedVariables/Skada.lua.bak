@@ -1,0 +1,4648 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 501,
+		["interrupts"] = 0,
+		["damage"] = 9474211,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "MAGE",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["奥术飞弹！"] = {
+						["name"] = "奥术飞弹！",
+						["active"] = 12,
+						["id"] = 79683,
+						["auratype"] = "BUFF",
+						["uptime"] = 617,
+					},
+					["死亡之吻"] = {
+						["name"] = "死亡之吻",
+						["active"] = 2,
+						["id"] = 90895,
+						["auratype"] = "BUFF",
+						["uptime"] = 470,
+					},
+					["闪现术"] = {
+						["name"] = "闪现术",
+						["active"] = 1,
+						["id"] = 1953,
+						["auratype"] = "BUFF",
+						["uptime"] = 485,
+					},
+					["奥术充能"] = {
+						["name"] = "奥术充能",
+						["active"] = 9,
+						["id"] = 36032,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 619,
+					},
+					["黑暗卷须"] = {
+						["name"] = "黑暗卷须",
+						["active"] = 2,
+						["id"] = 90898,
+						["auratype"] = "BUFF",
+						["uptime"] = 506,
+					},
+				},
+				["ccbreaks"] = 0,
+				["time"] = 444,
+				["interrupts"] = 0,
+				["damage"] = 9460563,
+				["damagespells"] = {
+					["魔爆术"] = {
+						["min"] = 13770,
+						["critical"] = 76,
+						["hit"] = 429,
+						["totalhits"] = 505,
+						["id"] = 1449,
+						["max"] = 38908,
+						["damage"] = 9095410,
+					},
+					["奥术飞弹"] = {
+						["min"] = 9752,
+						["critical"] = 4,
+						["hit"] = 15,
+						["totalhits"] = 19,
+						["id"] = 7268,
+						["max"] = 39007,
+						["damage"] = 365153,
+					},
+				},
+				["damagetaken"] = 138,
+				["deathlog"] = {
+					{
+						["ts"] = 1414590816.098,
+						["amount"] = -7,
+						["spellid"] = 88163,
+						["srcname"] = "烟网蛛后",
+						["hp"] = 34888,
+					}, -- [1]
+					{
+						["ts"] = 1414590970.406,
+						["amount"] = -9,
+						["spellid"] = 88163,
+						["srcname"] = "军需官兹格雷斯",
+						["hp"] = 34888,
+					}, -- [2]
+					{
+						["spellname"] = "Falling",
+						["ts"] = 1414591361.605,
+						["hp"] = 28282,
+						["amount"] = -6606,
+					}, -- [3]
+					{
+						["spellname"] = "Falling",
+						["ts"] = 1414592228.179,
+						["hp"] = 34414,
+						["amount"] = -474,
+					}, -- [4]
+					{
+						["ts"] = 1414592764.228,
+						["amount"] = -12,
+						["spellid"] = 88163,
+						["srcname"] = "奴役者基兹鲁尔",
+						["hp"] = 34888,
+					}, -- [5]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["ts"] = 1414593669.996,
+						["hp"] = 34888,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 8004,
+					}, -- [6]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["ts"] = 1414593671.199,
+						["hp"] = 34888,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 8004,
+					}, -- [7]
+					{
+						["ts"] = 1414593964.779,
+						["amount"] = -49,
+						["spellid"] = 88163,
+						["srcname"] = "制造者",
+						["hp"] = 34888,
+					}, -- [8]
+					{
+						["ts"] = 1414594026.741,
+						["amount"] = -24,
+						["spellid"] = 40062,
+						["srcname"] = "影月技师",
+						["hp"] = 34815,
+					}, -- [9]
+					{
+						["ts"] = 1414594052.196,
+						["amount"] = -37,
+						["spellid"] = 88163,
+						["srcname"] = "布洛戈克",
+						["hp"] = 34888,
+					}, -- [10]
+					["pos"] = 11,
+				},
+				["id"] = "Player-938-031DE643",
+				["maxhp"] = 34888,
+				["dispells"] = 0,
+				["damagetakenspells"] = {
+					["投掷炸弹"] = {
+						["crushing"] = 0,
+						["id"] = 40062,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 24,
+						["multistrike"] = 0,
+						["name"] = "投掷炸弹",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 24,
+						["damage"] = 24,
+					},
+					["攻击"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 7,
+						["multistrike"] = 0,
+						["name"] = "攻击",
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["max"] = 49,
+						["damage"] = 114,
+					},
+				},
+				["power"] = {
+				},
+				["overhealing"] = 0,
+				["name"] = "酸菜牛肉",
+				["healingspells"] = {
+				},
+				["shielding"] = 0,
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["multistrikes"] = 0,
+			}, -- [1]
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "SHAMAN",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["不朽智慧药水"] = {
+						["name"] = "不朽智慧药水",
+						["active"] = 1,
+						["id"] = 146939,
+						["auratype"] = "BUFF",
+						["uptime"] = 631,
+					},
+					["漩涡武器"] = {
+						["name"] = "漩涡武器",
+						["active"] = 3,
+						["id"] = 53817,
+						["auratype"] = "BUFF",
+						["uptime"] = 636,
+					},
+					["自然守护者"] = {
+						["name"] = "自然守护者",
+						["active"] = 1,
+						["id"] = 31616,
+						["auratype"] = "BUFF",
+						["uptime"] = 620,
+					},
+					["幽魂之狼"] = {
+						["name"] = "幽魂之狼",
+						["active"] = 0,
+						["id"] = 2645,
+						["auratype"] = "BUFF",
+						["uptime"] = 168,
+					},
+					["熔岩图腾"] = {
+						["name"] = "熔岩图腾",
+						["active"] = 0,
+						["id"] = 8190,
+						["auratype"] = "BUFF",
+						["uptime"] = 24,
+					},
+					["烈焰震击"] = {
+						["name"] = "烈焰震击",
+						["active"] = 0,
+						["id"] = 8050,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 56,
+					},
+					["风暴打击"] = {
+						["name"] = "风暴打击",
+						["active"] = 0,
+						["id"] = 17364,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 8,
+					},
+				},
+				["ccbreaks"] = 0,
+				["time"] = 310,
+				["interrupts"] = 0,
+				["damage"] = 13648,
+				["damagespells"] = {
+					["攻击"] = {
+						["DODGE"] = 1,
+						["max"] = 375,
+						["glancing"] = 7,
+						["critical"] = 2,
+						["hit"] = 5,
+						["totalhits"] = 15,
+						["min"] = 22,
+						["id"] = 6603,
+						["damage"] = 1955,
+					},
+					["火舌攻击"] = {
+						["min"] = 21,
+						["max"] = 46,
+						["critical"] = 2,
+						["hit"] = 10,
+						["totalhits"] = 13,
+						["id"] = 10444,
+						["MISS"] = 1,
+						["damage"] = 311,
+					},
+					["烈焰震击"] = {
+						["min"] = 15,
+						["max"] = 132,
+						["critical"] = 3,
+						["hit"] = 24,
+						["totalhits"] = 28,
+						["id"] = 8050,
+						["MISS"] = 1,
+						["damage"] = 2437,
+					},
+					["风暴打击"] = {
+						["min"] = 389,
+						["critical"] = 1,
+						["hit"] = 8,
+						["totalhits"] = 9,
+						["id"] = 32175,
+						["max"] = 876,
+						["damage"] = 4421,
+					},
+					["熔岩图腾: 熔岩图腾"] = {
+						["min"] = 36,
+						["critical"] = 1,
+						["hit"] = 1,
+						["totalhits"] = 2,
+						["id"] = 8187,
+						["max"] = 72,
+						["damage"] = 108,
+					},
+					["闪电箭"] = {
+						["min"] = 606,
+						["critical"] = 1,
+						["totalhits"] = 1,
+						["id"] = 403,
+						["max"] = 606,
+						["damage"] = 606,
+					},
+					["烈焰鞭笞"] = {
+						["min"] = 151,
+						["hit"] = 1,
+						["totalhits"] = 1,
+						["id"] = 27655,
+						["max"] = 151,
+						["damage"] = 151,
+					},
+					["风怒攻击"] = {
+						["min"] = 52,
+						["critical"] = 2,
+						["hit"] = 4,
+						["totalhits"] = 6,
+						["id"] = 25504,
+						["max"] = 139,
+						["damage"] = 535,
+					},
+					["副手风暴轰击"] = {
+						["min"] = 192,
+						["critical"] = 5,
+						["hit"] = 4,
+						["totalhits"] = 9,
+						["id"] = 32176,
+						["max"] = 509,
+						["damage"] = 3124,
+					},
+				},
+				["deaths"] = {
+					{
+						["ts"] = 1414591375.6921,
+						["maxhp"] = 8602,
+						["log"] = {
+							{
+								["absorb"] = 0,
+								["amount"] = 54,
+								["ts"] = 1414590932.32201,
+								["hp"] = 6442,
+								["srcname"] = "挖掘机教授",
+								["spellid"] = 137808,
+							}, -- [1]
+							{
+								["absorb"] = 0,
+								["amount"] = 27,
+								["ts"] = 1414590934.85202,
+								["hp"] = 6469,
+								["srcname"] = "挖掘机教授",
+								["spellid"] = 137808,
+							}, -- [2]
+							{
+								["ts"] = 1414591231.01903,
+								["amount"] = -393,
+								["spellid"] = 88163,
+								["srcname"] = "尖石执行者",
+								["hp"] = 8602,
+							}, -- [3]
+							{
+								["ts"] = 1414591232.88704,
+								["amount"] = -10,
+								["spellid"] = 15976,
+								["srcname"] = "尖石执行者",
+								["hp"] = 8199,
+							}, -- [4]
+							{
+								["absorb"] = 0,
+								["amount"] = 0,
+								["ts"] = 1414591339.81805,
+								["hp"] = 8602,
+								["srcname"] = "挖掘机教授",
+								["spellid"] = 137808,
+							}, -- [5]
+							{
+								["absorb"] = 0,
+								["amount"] = 0,
+								["ts"] = 1414591342.68506,
+								["hp"] = 8602,
+								["srcname"] = "挖掘机教授",
+								["spellid"] = 137808,
+							}, -- [6]
+							{
+								["spellname"] = "Falling",
+								["ts"] = 1414591363.62507,
+								["hp"] = 8495,
+								["amount"] = -107,
+							}, -- [7]
+							{
+								["ts"] = 1414591371.68908,
+								["amount"] = -4980,
+								["spellid"] = 15801,
+								["srcname"] = "燃棘先知",
+								["hp"] = 3515,
+							}, -- [8]
+							{
+								["ts"] = 1414591375.69209,
+								["amount"] = -5693,
+								["spellid"] = 15801,
+								["srcname"] = "燃棘先知",
+								["hp"] = 1,
+							}, -- [9]
+							{
+								["spellname"] = "挖掘机教授 次死亡",
+								["ts"] = 1414591375.6921,
+								["spellid"] = 41220,
+								["hp"] = 0,
+							}, -- [10]
+							["pos"] = 11,
+						},
+					}, -- [1]
+					{
+						["ts"] = 1414590871.55815,
+						["maxhp"] = 8534,
+						["log"] = {
+							{
+								["ts"] = 1414590827.76901,
+								["amount"] = -158,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 4145,
+							}, -- [1]
+							{
+								["ts"] = 1414590829.32002,
+								["amount"] = -115,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 3623,
+							}, -- [2]
+							{
+								["ts"] = 1414590830.60303,
+								["amount"] = -168,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 3508,
+							}, -- [3]
+							{
+								["ts"] = 1414590830.63704,
+								["amount"] = -137,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 3508,
+							}, -- [4]
+							{
+								["ts"] = 1414590830.65105,
+								["amount"] = -159,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 3508,
+							}, -- [5]
+							{
+								["ts"] = 1414590832.20306,
+								["amount"] = -136,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 3044,
+							}, -- [6]
+							{
+								["ts"] = 1414590832.20307,
+								["amount"] = -134,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 3044,
+							}, -- [7]
+							{
+								["ts"] = 1414590832.20308,
+								["amount"] = -133,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 3044,
+							}, -- [8]
+							{
+								["ts"] = 1414590833.10209,
+								["amount"] = 1405,
+								["absorb"] = 0,
+								["hp"] = 4046,
+								["srcname"] = "挖掘机教授",
+								["spellid"] = 8004,
+							}, -- [9]
+							{
+								["ts"] = 1414590833.6191,
+								["amount"] = -133,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 4046,
+							}, -- [10]
+							{
+								["ts"] = 1414590833.63711,
+								["amount"] = -143,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 4046,
+							}, -- [11]
+							{
+								["ts"] = 1414590833.67012,
+								["amount"] = -126,
+								["spellid"] = 88163,
+								["srcname"] = "尖塔小蜘蛛",
+								["hp"] = 4046,
+							}, -- [12]
+							{
+								["ts"] = 1414590835.20313,
+								["amount"] = 1405,
+								["absorb"] = 0,
+								["hp"] = 5049,
+								["srcname"] = "挖掘机教授",
+								["spellid"] = 8004,
+							}, -- [13]
+							{
+								["ts"] = 1414590871.55814,
+								["amount"] = -6567,
+								["spellid"] = 88163,
+								["srcname"] = "尖石战斗法师",
+								["hp"] = 6345,
+							}, -- [14]
+							{
+								["spellname"] = "挖掘机教授 次死亡",
+								["ts"] = 1414590871.55815,
+								["hp"] = 0,
+								["spellid"] = 41220,
+							}, -- [15]
+							["pos"] = 1,
+						},
+					}, -- [2]
+				},
+				["damagetaken"] = 81722,
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 30,
+						["ts"] = 1414594096.669,
+						["hp"] = 7322,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 137808,
+					}, -- [1]
+					{
+						["absorb"] = 0,
+						["amount"] = 60,
+						["ts"] = 1414594100.534,
+						["hp"] = 7382,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 137808,
+					}, -- [2]
+					{
+						["ts"] = 1414594101.868,
+						["amount"] = 59,
+						["absorb"] = 0,
+						["hp"] = 7441,
+						["spellid"] = 137808,
+						["srcname"] = "挖掘机教授",
+					}, -- [3]
+					{
+						["ts"] = 1414594105.302,
+						["amount"] = 30,
+						["absorb"] = 0,
+						["hp"] = 7471,
+						["spellid"] = 137808,
+						["srcname"] = "挖掘机教授",
+					}, -- [4]
+					{
+						["ts"] = 1414594107.151,
+						["amount"] = 30,
+						["absorb"] = 0,
+						["hp"] = 7501,
+						["spellid"] = 137808,
+						["srcname"] = "挖掘机教授",
+					}, -- [5]
+					{
+						["ts"] = 1414594107.969,
+						["amount"] = 7,
+						["absorb"] = 0,
+						["hp"] = 7508,
+						["spellid"] = 137808,
+						["srcname"] = "挖掘机教授",
+					}, -- [6]
+					{
+						["ts"] = 1414594109.102,
+						["amount"] = -664,
+						["srcname"] = "击碎者克里丹",
+						["spellid"] = 17228,
+						["hp"] = 6844,
+					}, -- [7]
+					{
+						["absorb"] = 0,
+						["amount"] = 59,
+						["ts"] = 1414594110.62,
+						["hp"] = 6903,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 137808,
+					}, -- [8]
+					{
+						["ts"] = 1414594111.673,
+						["amount"] = -1980,
+						["spellid"] = 88163,
+						["srcname"] = "击碎者克里丹",
+						["hp"] = 6903,
+					}, -- [9]
+					{
+						["ts"] = 1414594115.603,
+						["amount"] = -493,
+						["srcname"] = "地狱火劣魔",
+						["spellid"] = 11921,
+						["hp"] = 4430,
+					}, -- [10]
+					{
+						["ts"] = 1414594115.654,
+						["amount"] = 59,
+						["absorb"] = 0,
+						["hp"] = 4489,
+						["spellid"] = 137808,
+						["srcname"] = "挖掘机教授",
+					}, -- [11]
+					{
+						["ts"] = 1414594120.172,
+						["amount"] = -485,
+						["spellid"] = 11921,
+						["srcname"] = "地狱火劣魔",
+						["hp"] = 4004,
+					}, -- [12]
+					{
+						["absorb"] = 0,
+						["amount"] = 29,
+						["ts"] = 1414594120.172,
+						["hp"] = 4033,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 137808,
+					}, -- [13]
+					{
+						["absorb"] = 0,
+						["amount"] = 30,
+						["ts"] = 1414594091.069,
+						["hp"] = 7263,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 137808,
+					}, -- [14]
+					{
+						["ts"] = 1414594093.732,
+						["amount"] = 29,
+						["absorb"] = 0,
+						["hp"] = 7292,
+						["srcname"] = "挖掘机教授",
+						["spellid"] = 137808,
+					}, -- [15]
+					["pos"] = 14,
+				},
+				["id"] = "Player-938-038DC6B0",
+				["maxhp"] = 8534,
+				["dispells"] = 0,
+				["damagetakenspells"] = {
+					["奥术箭"] = {
+						["crushing"] = 0,
+						["id"] = 13748,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 1801,
+						["multistrike"] = 0,
+						["name"] = "奥术箭",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 2860,
+						["damage"] = 4661,
+					},
+					["攻击"] = {
+						["crushing"] = 1,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 3,
+						["min"] = 115,
+						["multistrike"] = 0,
+						["name"] = "攻击",
+						["blocked"] = 0,
+						["totalhits"] = 66,
+						["resisted"] = 0,
+						["max"] = 6567,
+						["damage"] = 42077,
+					},
+					["奥术飞弹"] = {
+						["crushing"] = 0,
+						["id"] = 15791,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 1877,
+						["multistrike"] = 0,
+						["name"] = "奥术飞弹",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 1877,
+						["damage"] = 1877,
+					},
+					["闪电箭"] = {
+						["crushing"] = 0,
+						["id"] = 15801,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 4980,
+						["multistrike"] = 0,
+						["name"] = "闪电箭",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 5693,
+						["damage"] = 10673,
+					},
+					["刺破"] = {
+						["crushing"] = 0,
+						["id"] = 15976,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 10,
+						["multistrike"] = 0,
+						["name"] = "刺破",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 10,
+						["damage"] = 10,
+					},
+					["投掷"] = {
+						["crushing"] = 0,
+						["id"] = 15795,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 135,
+						["multistrike"] = 0,
+						["name"] = "投掷",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 191,
+						["damage"] = 931,
+					},
+					["自走炸弹爆炸"] = {
+						["crushing"] = 0,
+						["id"] = 30844,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 3240,
+						["multistrike"] = 0,
+						["name"] = "自走炸弹爆炸",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 3240,
+						["damage"] = 3240,
+					},
+					["腐蚀术"] = {
+						["crushing"] = 0,
+						["id"] = 32197,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 153,
+						["multistrike"] = 0,
+						["name"] = "腐蚀术",
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["max"] = 154,
+						["damage"] = 769,
+					},
+					["上钩拳"] = {
+						["crushing"] = 0,
+						["id"] = 18072,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 1784,
+						["multistrike"] = 0,
+						["name"] = "上钩拳",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 1857,
+						["damage"] = 3641,
+					},
+					["火球术"] = {
+						["crushing"] = 0,
+						["id"] = 11921,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 485,
+						["multistrike"] = 0,
+						["name"] = "火球术",
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["max"] = 1804,
+						["damage"] = 4906,
+					},
+					["暗影箭雨"] = {
+						["crushing"] = 0,
+						["id"] = 17228,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 617,
+						["multistrike"] = 0,
+						["name"] = "暗影箭雨",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 664,
+						["damage"] = 1281,
+					},
+					["暗影箭"] = {
+						["crushing"] = 0,
+						["id"] = 12739,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 1212,
+						["multistrike"] = 0,
+						["name"] = "暗影箭",
+						["blocked"] = 0,
+						["totalhits"] = 3,
+						["resisted"] = 0,
+						["max"] = 5161,
+						["damage"] = 7656,
+					},
+				},
+				["power"] = {
+				},
+				["overhealing"] = 4783,
+				["name"] = "挖掘机教授",
+				["healingspells"] = {
+					["治疗之涌"] = {
+						["shielding"] = 0,
+						["id"] = 8004,
+						["healing"] = 26813,
+						["absorbed"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "治疗之涌",
+						["critical"] = 3,
+						["max"] = 2993,
+						["overhealing"] = 4289,
+						["hits"] = 18,
+						["multistrikes"] = 0,
+					},
+					["生命烈焰"] = {
+						["shielding"] = 0,
+						["id"] = 137808,
+						["healing"] = 709,
+						["absorbed"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "生命烈焰",
+						["critical"] = 0,
+						["max"] = 60,
+						["overhealing"] = 494,
+						["hits"] = 28,
+						["multistrikes"] = 0,
+					},
+				},
+				["shielding"] = 0,
+				["healing"] = 27522,
+				["healed"] = {
+					["Player-938-031DE643"] = {
+						["shielding"] = 0,
+						["class"] = "MAGE",
+						["name"] = "酸菜牛肉",
+						["amount"] = 0,
+					},
+					["Player-938-038DC6B0"] = {
+						["shielding"] = 0,
+						["class"] = "SHAMAN",
+						["name"] = "挖掘机教授",
+						["amount"] = 27522,
+					},
+				},
+				["multistrikes"] = 0,
+			}, -- [2]
+		},
+		["deaths"] = 2,
+		["mobs"] = {
+			["影月术士"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 3264,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 423428,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 3264,
+				["taken"] = 423428,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖塔小蜘蛛"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 5933,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 1050962,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 5933,
+				["taken"] = 1050962,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["欧莫克大王"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 185,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 90156,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 90341,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["血斧招魂师"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 2860,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 30575,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 2860,
+				["taken"] = 30575,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["乌洛克惩戒者"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 452,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 31411,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 452,
+				["taken"] = 31411,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["恶魔卫士蛮兵"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 3641,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 109608,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 3641,
+				["taken"] = 109608,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["血斧座狼"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 112705,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 112705,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["军需官兹格雷斯"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 145621,
+						["done"] = 9,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 9,
+				["taken"] = 145621,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["嘲颅卫士"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 69686,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 69686,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["暗影猎手沃什加斯"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 2117,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 147425,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 149542,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["击碎者克里丹"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 2820,
+						["done"] = 7302,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 90388,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 7302,
+				["taken"] = 93208,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘暗影牧师"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 5207,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 159026,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 5207,
+				["taken"] = 159026,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["火印祈求者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 101960,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 101960,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["裂盾袭击者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 45424,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 45424,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石劫掠者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 29355,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 29355,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["嘲颅军团士兵"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 113188,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 113188,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["奴役者基兹鲁尔"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 72,
+						["done"] = 517,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 187248,
+						["done"] = 12,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 529,
+				["taken"] = 187320,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["烟网蛛后"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 88295,
+						["done"] = 7,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 7,
+				["taken"] = 88295,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["裂盾侍僧"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 16364,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 16364,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘掷斧者"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 1258,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 70803,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1258,
+				["taken"] = 70803,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石军阀"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 61933,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 61933,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["初生的邪兽人"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 496828,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 496828,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["血斧袭击者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 62682,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 62682,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["指挥官沃恩"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 905,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 59716,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 60621,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘暗影猎手"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 28291,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 28291,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["血斧座狼幼崽"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 74134,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 74134,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["恶魔卫士歼灭者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 155996,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 155996,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["裂盾军团战士"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 75725,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 75725,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["邪兽人新兵"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 677,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 261807,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 677,
+				["taken"] = 261807,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["火印暗法师"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 5161,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 87142,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 5161,
+				["taken"] = 87142,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["地狱火小鬼"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 1804,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 131840,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1804,
+				["taken"] = 131840,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["黑老鼠"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 36,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 150043,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 150079,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["嘲颅执行者"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 7855,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 413694,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 7855,
+				["taken"] = 413694,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石屠夫"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 1971,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 56306,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 58277,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["血斧召唤师"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 1877,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 109755,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1877,
+				["taken"] = 109755,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["乌洛克"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 46306,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 46306,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石战斗法师"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 6567,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 93107,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 6567,
+				["taken"] = 93107,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["火印步兵"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 733,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 268867,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 733,
+				["taken"] = 268867,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石秘法师"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 59306,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 59306,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["哈雷肯"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 890,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 122903,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 123793,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影月专家"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 429350,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 429350,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘巫医"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 32429,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 32429,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["裂盾缚法师"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 1801,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 73961,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1801,
+				["taken"] = 73961,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影月导魔者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 94537,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 94537,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘猎头者"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 177,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 96262,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 177,
+				["taken"] = 96262,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魅惑者"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 1342,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 16275,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1342,
+				["taken"] = 16275,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["血斧好战者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 208283,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 208283,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["制造者"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 39366,
+						["done"] = 49,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 49,
+				["taken"] = 39366,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石食人魔法师"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 58003,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 58003,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘狂战士"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 72853,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 72853,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘秘法师"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 77929,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 77929,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["地狱火劣魔"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 2638,
+						["done"] = 1470,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 213132,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1470,
+				["taken"] = 215770,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石统帅"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 42088,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 42088,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["布洛戈克"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 1330,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 73403,
+						["done"] = 37,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 37,
+				["taken"] = 74733,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖塔蜘蛛"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 315,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 138554,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 315,
+				["taken"] = 138554,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["黑石塔甲虫"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 236047,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 236047,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["维姆萨拉克"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 684,
+						["done"] = 0,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 57184,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 57868,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["裂盾术士"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 45331,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 45331,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影月技师"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 3240,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 540550,
+						["done"] = 24,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 3264,
+				["taken"] = 540550,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["蟑螂"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 224785,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 224785,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["裂盾座狼"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 92072,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 92072,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["燃棘先知"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 10673,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 46435,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 10673,
+				["taken"] = 46435,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["乌洛克法师"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 95486,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 95486,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["尖石执行者"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 403,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 42978,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 403,
+				["taken"] = 42978,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影月召唤者"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 1632,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 224180,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1632,
+				["taken"] = 224180,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["嘲颅盗贼"] = {
+				["players"] = {
+					["挖掘机教授"] = {
+						["taken"] = 0,
+						["done"] = 5561,
+						["class"] = "SHAMAN",
+					},
+					["酸菜牛肉"] = {
+						["taken"] = 50403,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 5561,
+				["taken"] = 50403,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["黑石塔蝎子"] = {
+				["players"] = {
+					["酸菜牛肉"] = {
+						["taken"] = 208678,
+						["done"] = 0,
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 208678,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["shielding"] = 0,
+		["healing"] = 27522,
+		["multistrikes"] = 0,
+		["power"] = {
+		},
+		["overhealing"] = 4783,
+		["starttime"] = 1414589270,
+		["name"] = "总体",
+		["damagetaken"] = 81860,
+		["mobtaken"] = 9474211,
+		["mobhdone"] = 0,
+		["last_action"] = 1414589270,
+		["mobdone"] = 81860,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 50,
+			["interrupts"] = 0,
+			["endtime"] = 1414594120,
+			["damage"] = 406924,
+			["players"] = {
+				{
+					["last"] = 1414594120,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["影月术士"] = 62314,
+						["地狱火劣魔"] = 94516,
+						["恶魔卫士歼灭者"] = 108639,
+						["影月导魔者"] = 94537,
+						["击碎者克里丹"] = 42639,
+					},
+					["auras"] = {
+						["奥术飞弹！"] = {
+							["name"] = "奥术飞弹！",
+							["active"] = 0,
+							["id"] = 79683,
+							["auratype"] = "BUFF",
+							["uptime"] = 3,
+						},
+						["闪现术"] = {
+							["name"] = "闪现术",
+							["active"] = 0,
+							["id"] = 1953,
+							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+						["奥术充能"] = {
+							["name"] = "奥术充能",
+							["active"] = 1,
+							["id"] = 36032,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 17,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 50,
+					["interrupts"] = 0,
+					["damage"] = 402645,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15217,
+							["critical"] = 3,
+							["hit"] = 17,
+							["totalhits"] = 20,
+							["id"] = 1449,
+							["max"] = 31883,
+							["damage"] = 360006,
+						},
+						["奥术飞弹"] = {
+							["min"] = 14213,
+							["hit"] = 3,
+							["totalhits"] = 3,
+							["id"] = 7268,
+							["max"] = 14213,
+							["damage"] = 42639,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414594070,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1414594120,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+						["击碎者克里丹"] = 1641,
+						["地狱火劣魔"] = 2638,
+					},
+					["auras"] = {
+						["幽魂之狼"] = {
+							["name"] = "幽魂之狼",
+							["active"] = 0,
+							["id"] = 2645,
+							["auratype"] = "BUFF",
+							["uptime"] = 27,
+						},
+						["漩涡武器"] = {
+							["name"] = "漩涡武器",
+							["active"] = 1,
+							["id"] = 53817,
+							["auratype"] = "BUFF",
+							["uptime"] = 9,
+						},
+						["烈焰震击"] = {
+							["name"] = "烈焰震击",
+							["active"] = 0,
+							["id"] = 8050,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 37,
+						},
+						["风暴打击"] = {
+							["name"] = "风暴打击",
+							["active"] = 0,
+							["id"] = 17364,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 0,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 48,
+					["interrupts"] = 0,
+					["damage"] = 4279,
+					["damagespells"] = {
+						["攻击"] = {
+							["min"] = 110,
+							["critical"] = 1,
+							["hit"] = 3,
+							["totalhits"] = 4,
+							["id"] = 6603,
+							["max"] = 227,
+							["damage"] = 764,
+						},
+						["副手风暴轰击"] = {
+							["min"] = 430,
+							["critical"] = 2,
+							["totalhits"] = 2,
+							["id"] = 32176,
+							["max"] = 503,
+							["damage"] = 933,
+						},
+						["火舌攻击"] = {
+							["min"] = 23,
+							["critical"] = 1,
+							["hit"] = 3,
+							["totalhits"] = 4,
+							["id"] = 10444,
+							["max"] = 46,
+							["damage"] = 115,
+						},
+						["烈焰鞭笞"] = {
+							["min"] = 151,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 27655,
+							["max"] = 151,
+							["damage"] = 151,
+						},
+						["烈焰震击"] = {
+							["min"] = 15,
+							["critical"] = 3,
+							["hit"] = 13,
+							["totalhits"] = 16,
+							["id"] = 8050,
+							["max"] = 132,
+							["damage"] = 1395,
+						},
+						["风暴打击"] = {
+							["min"] = 448,
+							["hit"] = 2,
+							["totalhits"] = 2,
+							["id"] = 32175,
+							["max"] = 473,
+							["damage"] = 921,
+						},
+					},
+					["healed"] = {
+						["Player-938-038DC6B0"] = {
+							["shielding"] = 0,
+							["class"] = "SHAMAN",
+							["name"] = "挖掘机教授",
+							["amount"] = 2157,
+						},
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-038DC6B0",
+					["first"] = 1414594072,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["火球术"] = {
+							["crushing"] = 0,
+							["id"] = 11921,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 485,
+							["multistrike"] = 0,
+							["name"] = "火球术",
+							["blocked"] = 0,
+							["totalhits"] = 3,
+							["resisted"] = 0,
+							["max"] = 493,
+							["damage"] = 1470,
+						},
+						["攻击"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 1980,
+							["multistrike"] = 0,
+							["name"] = "攻击",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 1980,
+							["damage"] = 1980,
+						},
+						["腐蚀术"] = {
+							["crushing"] = 0,
+							["id"] = 32197,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 153,
+							["multistrike"] = 0,
+							["name"] = "腐蚀术",
+							["blocked"] = 0,
+							["totalhits"] = 5,
+							["resisted"] = 0,
+							["max"] = 154,
+							["damage"] = 769,
+						},
+						["暗影箭雨"] = {
+							["crushing"] = 0,
+							["id"] = 17228,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 664,
+							["multistrike"] = 0,
+							["name"] = "暗影箭雨",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 664,
+							["damage"] = 664,
+						},
+					},
+					["power"] = {
+					},
+					["maxhp"] = 10296,
+					["name"] = "挖掘机教授",
+					["overhealing"] = 0,
+					["healingspells"] = {
+						["治疗之涌"] = {
+							["shielding"] = 0,
+							["id"] = 8004,
+							["healing"] = 1529,
+							["absorbed"] = 0,
+							["min"] = 1529,
+							["multistrike"] = 0,
+							["name"] = "治疗之涌",
+							["critical"] = 0,
+							["max"] = 1529,
+							["overhealing"] = 0,
+							["hits"] = 1,
+							["multistrikes"] = 0,
+						},
+						["生命烈焰"] = {
+							["shielding"] = 0,
+							["id"] = 137808,
+							["healing"] = 628,
+							["absorbed"] = 0,
+							["min"] = 7,
+							["multistrike"] = 0,
+							["name"] = "生命烈焰",
+							["critical"] = 0,
+							["max"] = 60,
+							["overhealing"] = 0,
+							["hits"] = 16,
+							["multistrikes"] = 0,
+						},
+					},
+					["healing"] = 2157,
+					["damagetaken"] = 4883,
+					["multistrikes"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["影月术士"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 769,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 62314,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 769,
+					["taken"] = 62314,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["地狱火劣魔"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 2638,
+							["done"] = 1470,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 94516,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 1470,
+					["taken"] = 97154,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["恶魔卫士歼灭者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 108639,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 108639,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月导魔者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 94537,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 94537,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["击碎者克里丹"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 1641,
+							["done"] = 2644,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 42639,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 2644,
+					["taken"] = 44280,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 4883,
+			["healing"] = 2157,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414594070,
+			["name"] = "地狱火劣魔",
+			["mobname"] = "地狱火劣魔",
+			["mobtaken"] = 406924,
+			["mobhdone"] = 0,
+			["last_action"] = 1414594070,
+			["mobdone"] = 4883,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 171,
+			["interrupts"] = 0,
+			["endtime"] = 1414594054,
+			["damage"] = 1841738,
+			["players"] = {
+				{
+					["last"] = 1414594054,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["嘲颅卫士"] = 53784,
+						["影月术士"] = 157352,
+						["影月专家"] = 250266,
+						["嘲颅执行者"] = 257219,
+						["制造者"] = 39366,
+						["影月技师"] = 350599,
+						["魅惑者"] = 16275,
+						["初生的邪兽人"] = 275340,
+						["邪兽人新兵"] = 135546,
+						["布洛戈克"] = 30555,
+						["影月召唤者"] = 94951,
+						["嘲颅军团士兵"] = 97620,
+						["地狱火小鬼"] = 81535,
+					},
+					["auras"] = {
+						["死亡之吻"] = {
+							["name"] = "死亡之吻",
+							["active"] = 0,
+							["id"] = 90895,
+							["auratype"] = "BUFF",
+							["uptime"] = 41,
+						},
+						["奥术飞弹！"] = {
+							["name"] = "奥术飞弹！",
+							["active"] = 1,
+							["id"] = 79683,
+							["auratype"] = "BUFF",
+							["uptime"] = 125,
+						},
+						["闪现术"] = {
+							["name"] = "闪现术",
+							["active"] = 0,
+							["id"] = 1953,
+							["auratype"] = "BUFF",
+							["uptime"] = 8,
+						},
+						["奥术充能"] = {
+							["name"] = "奥术充能",
+							["active"] = 1,
+							["id"] = 36032,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 140,
+						},
+						["黑暗卷须"] = {
+							["name"] = "黑暗卷须",
+							["active"] = 0,
+							["id"] = 90898,
+							["auratype"] = "BUFF",
+							["uptime"] = 29,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 170,
+					["interrupts"] = 0,
+					["damage"] = 1840408,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15142,
+							["critical"] = 18,
+							["hit"] = 77,
+							["totalhits"] = 95,
+							["id"] = 1449,
+							["max"] = 37931,
+							["damage"] = 1840408,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593884,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["投掷炸弹"] = {
+							["crushing"] = 0,
+							["id"] = 40062,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 24,
+							["multistrike"] = 0,
+							["name"] = "投掷炸弹",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 24,
+							["damage"] = 24,
+						},
+						["攻击"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 37,
+							["multistrike"] = 0,
+							["name"] = "攻击",
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["max"] = 49,
+							["damage"] = 86,
+						},
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 110,
+					["multistrikes"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1414594054,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+						["布洛戈克"] = 1330,
+					},
+					["auras"] = {
+						["幽魂之狼"] = {
+							["name"] = "幽魂之狼",
+							["active"] = 0,
+							["id"] = 2645,
+							["auratype"] = "BUFF",
+							["uptime"] = 109,
+						},
+						["烈焰震击"] = {
+							["name"] = "烈焰震击",
+							["active"] = 0,
+							["id"] = 8050,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 1,
+						},
+						["风暴打击"] = {
+							["name"] = "风暴打击",
+							["active"] = 0,
+							["id"] = 17364,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 0,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 164,
+					["interrupts"] = 0,
+					["damage"] = 1330,
+					["damagespells"] = {
+						["副手风暴轰击"] = {
+							["min"] = 509,
+							["critical"] = 1,
+							["totalhits"] = 1,
+							["id"] = 32176,
+							["max"] = 509,
+							["damage"] = 509,
+						},
+						["攻击"] = {
+							["min"] = 210,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 6603,
+							["max"] = 210,
+							["damage"] = 210,
+						},
+						["烈焰震击"] = {
+							["min"] = 131,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 8050,
+							["max"] = 131,
+							["damage"] = 131,
+						},
+						["风暴打击"] = {
+							["min"] = 480,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 32175,
+							["max"] = 480,
+							["damage"] = 480,
+						},
+					},
+					["healed"] = {
+						["Player-938-038DC6B0"] = {
+							["shielding"] = 0,
+							["class"] = "SHAMAN",
+							["name"] = "挖掘机教授",
+							["amount"] = 13916,
+						},
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-038DC6B0",
+					["first"] = 1414593890,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["火球术"] = {
+							["crushing"] = 0,
+							["id"] = 15242,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 1632,
+							["multistrike"] = 0,
+							["name"] = "火球术",
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["max"] = 1804,
+							["damage"] = 3436,
+						},
+						["攻击"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 1,
+							["min"] = 1159,
+							["multistrike"] = 0,
+							["name"] = "攻击",
+							["blocked"] = 0,
+							["totalhits"] = 6,
+							["resisted"] = 0,
+							["max"] = 2480,
+							["damage"] = 9197,
+						},
+						["暗影箭"] = {
+							["crushing"] = 0,
+							["id"] = 12739,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 1283,
+							["multistrike"] = 0,
+							["name"] = "暗影箭",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 1283,
+							["damage"] = 1283,
+						},
+					},
+					["power"] = {
+					},
+					["maxhp"] = 10044,
+					["name"] = "挖掘机教授",
+					["overhealing"] = 1104,
+					["healingspells"] = {
+						["生命烈焰"] = {
+							["shielding"] = 0,
+							["id"] = 137808,
+							["healing"] = 0,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "生命烈焰",
+							["critical"] = 0,
+							["max"] = 0,
+							["overhealing"] = 59,
+							["hits"] = 1,
+							["multistrikes"] = 0,
+						},
+						["治疗之涌"] = {
+							["shielding"] = 0,
+							["id"] = 8004,
+							["healing"] = 13916,
+							["absorbed"] = 0,
+							["min"] = 451,
+							["multistrike"] = 0,
+							["name"] = "治疗之涌",
+							["critical"] = 2,
+							["max"] = 2993,
+							["overhealing"] = 1045,
+							["hits"] = 8,
+							["multistrikes"] = 0,
+						},
+					},
+					["healing"] = 13916,
+					["damagetaken"] = 13916,
+					["multistrikes"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["嘲颅卫士"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 53784,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 53784,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月术士"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 1283,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 157352,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 1283,
+					["taken"] = 157352,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月专家"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 250266,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 250266,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["嘲颅执行者"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 7855,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 257219,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 7855,
+					["taken"] = 257219,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["制造者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 39366,
+							["done"] = 49,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 49,
+					["taken"] = 39366,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月技师"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 350599,
+							["done"] = 24,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 24,
+					["taken"] = 350599,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["魅惑者"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 1342,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 16275,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 1342,
+					["taken"] = 16275,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["初生的邪兽人"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 275340,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 275340,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["邪兽人新兵"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 135546,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 135546,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["布洛戈克"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 1330,
+							["done"] = 0,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 30555,
+							["done"] = 37,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 37,
+					["taken"] = 31885,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月召唤者"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 1632,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 94951,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 1632,
+					["taken"] = 94951,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["嘲颅军团士兵"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 97620,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 97620,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["地狱火小鬼"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 1804,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 81535,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 1804,
+					["taken"] = 81535,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 14026,
+			["healing"] = 13916,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 1104,
+			["starttime"] = 1414593883,
+			["name"] = "影月专家 (2)",
+			["mobname"] = "影月专家",
+			["mobtaken"] = 1841738,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593883,
+			["mobdone"] = 14026,
+		}, -- [2]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 10,
+			["interrupts"] = 0,
+			["endtime"] = 1414593770,
+			["damage"] = 48928,
+			["players"] = {
+				{
+					["last"] = 1414593770,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["击碎者克里丹"] = 47749,
+					},
+					["auras"] = {
+						["奥术飞弹！"] = {
+							["name"] = "奥术飞弹！",
+							["active"] = 1,
+							["id"] = 79683,
+							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 9,
+					["interrupts"] = 0,
+					["damage"] = 47749,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15209,
+							["hit"] = 3,
+							["totalhits"] = 3,
+							["id"] = 1449,
+							["max"] = 16394,
+							["damage"] = 47749,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593761,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1414593770,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+						["击碎者克里丹"] = 1179,
+					},
+					["auras"] = {
+						["风暴打击"] = {
+							["name"] = "风暴打击",
+							["active"] = 0,
+							["id"] = 17364,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 1,
+						},
+						["漩涡武器"] = {
+							["name"] = "漩涡武器",
+							["active"] = 1,
+							["id"] = 53817,
+							["auratype"] = "BUFF",
+							["uptime"] = 7,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 8,
+					["interrupts"] = 0,
+					["damage"] = 1179,
+					["damagespells"] = {
+						["攻击"] = {
+							["min"] = 51,
+							["glancing"] = 3,
+							["totalhits"] = 3,
+							["id"] = 6603,
+							["max"] = 96,
+							["damage"] = 199,
+						},
+						["副手风暴轰击"] = {
+							["min"] = 248,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 32176,
+							["max"] = 248,
+							["damage"] = 248,
+						},
+						["火舌攻击"] = {
+							["min"] = 22,
+							["critical"] = 1,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["id"] = 10444,
+							["max"] = 44,
+							["damage"] = 66,
+						},
+						["风怒攻击"] = {
+							["min"] = 52,
+							["hit"] = 3,
+							["totalhits"] = 3,
+							["id"] = 25504,
+							["max"] = 79,
+							["damage"] = 203,
+						},
+						["烈焰震击"] = {
+							["max"] = 0,
+							["totalhits"] = 1,
+							["id"] = 8050,
+							["MISS"] = 1,
+							["damage"] = 0,
+						},
+						["风暴打击"] = {
+							["min"] = 463,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["id"] = 32175,
+							["max"] = 463,
+							["damage"] = 463,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-038DC6B0",
+					["first"] = 1414593762,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["暗影箭雨"] = {
+							["crushing"] = 0,
+							["id"] = 17228,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 617,
+							["multistrike"] = 0,
+							["name"] = "暗影箭雨",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 617,
+							["damage"] = 617,
+						},
+						["攻击"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 1964,
+							["multistrike"] = 0,
+							["name"] = "攻击",
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["max"] = 2077,
+							["damage"] = 4041,
+						},
+					},
+					["power"] = {
+					},
+					["maxhp"] = 9695,
+					["name"] = "挖掘机教授",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 4658,
+					["multistrikes"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["击碎者克里丹"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 1179,
+							["done"] = 4658,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 47749,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 4658,
+					["taken"] = 48928,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 4658,
+			["healing"] = 0,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414593760,
+			["name"] = "击碎者克里丹",
+			["mobname"] = "击碎者克里丹",
+			["mobtaken"] = 48928,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593760,
+			["mobdone"] = 4658,
+		}, -- [3]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 13,
+			["interrupts"] = 0,
+			["endtime"] = 1414593728,
+			["damage"] = 184644,
+			["players"] = {
+				{
+					["last"] = 1414593726,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["地狱火劣魔"] = 118616,
+						["影月术士"] = 15645,
+						["嘲颅盗贼"] = 18873,
+						["恶魔卫士蛮兵"] = 31510,
+					},
+					["auras"] = {
+						["黑暗卷须"] = {
+							["name"] = "黑暗卷须",
+							["active"] = 1,
+							["id"] = 90898,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 10,
+					["interrupts"] = 0,
+					["damage"] = 184644,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15645,
+							["critical"] = 1,
+							["hit"] = 9,
+							["totalhits"] = 10,
+							["id"] = 1449,
+							["max"] = 30633,
+							["damage"] = 184644,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593716,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1414593727,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+					},
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+					["time"] = 7,
+					["interrupts"] = 0,
+					["damage"] = 0,
+					["damagespells"] = {
+					},
+					["healed"] = {
+						["Player-938-038DC6B0"] = {
+							["shielding"] = 0,
+							["class"] = "SHAMAN",
+							["name"] = "挖掘机教授",
+							["amount"] = 1486,
+						},
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-038DC6B0",
+					["first"] = 1414593720,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["攻击"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 497,
+							["multistrike"] = 0,
+							["name"] = "攻击",
+							["blocked"] = 0,
+							["totalhits"] = 5,
+							["resisted"] = 0,
+							["max"] = 1278,
+							["damage"] = 4142,
+						},
+					},
+					["power"] = {
+					},
+					["maxhp"] = 9695,
+					["name"] = "挖掘机教授",
+					["overhealing"] = 0,
+					["healingspells"] = {
+						["治疗之涌"] = {
+							["shielding"] = 0,
+							["id"] = 8004,
+							["healing"] = 1486,
+							["absorbed"] = 0,
+							["min"] = 1486,
+							["multistrike"] = 0,
+							["name"] = "治疗之涌",
+							["critical"] = 0,
+							["max"] = 1486,
+							["overhealing"] = 0,
+							["hits"] = 1,
+							["multistrikes"] = 0,
+						},
+					},
+					["healing"] = 1486,
+					["damagetaken"] = 4142,
+					["multistrikes"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["地狱火劣魔"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 118616,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 118616,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月术士"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 15645,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 15645,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["嘲颅盗贼"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 4142,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 18873,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 4142,
+					["taken"] = 18873,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["恶魔卫士蛮兵"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 31510,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 31510,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 4142,
+			["healing"] = 1486,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414593715,
+			["name"] = "恶魔卫士蛮兵",
+			["mobname"] = "恶魔卫士蛮兵",
+			["mobtaken"] = 184644,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593715,
+			["mobdone"] = 4142,
+		}, -- [4]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["endtime"] = 1414593708,
+			["damage"] = 46534,
+			["players"] = {
+				{
+					["last"] = 1414593702,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["恶魔卫士蛮兵"] = 30358,
+						["影月术士"] = 16176,
+					},
+					["auras"] = {
+						["奥术飞弹！"] = {
+							["name"] = "奥术飞弹！",
+							["active"] = 1,
+							["id"] = 79683,
+							["auratype"] = "BUFF",
+							["uptime"] = 6,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 0,
+					["interrupts"] = 0,
+					["damage"] = 46534,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 16176,
+							["critical"] = 1,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["id"] = 1449,
+							["max"] = 30358,
+							["damage"] = 46534,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593702,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["恶魔卫士蛮兵"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 30358,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 30358,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月术士"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 16176,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 16176,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 0,
+			["healing"] = 0,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414593702,
+			["name"] = "影月术士 (2)",
+			["mobname"] = "影月术士",
+			["mobtaken"] = 46534,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593702,
+			["mobdone"] = 0,
+		}, -- [5]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 37,
+			["interrupts"] = 0,
+			["endtime"] = 1414593689,
+			["damage"] = 454523,
+			["players"] = {
+				{
+					["last"] = 1414593689,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["影月术士"] = 46772,
+						["初生的邪兽人"] = 158424,
+						["布洛戈克"] = 42848,
+						["邪兽人新兵"] = 126261,
+						["影月技师"] = 80218,
+					},
+					["auras"] = {
+						["闪现术"] = {
+							["name"] = "闪现术",
+							["active"] = 0,
+							["id"] = 1953,
+							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 37,
+					["interrupts"] = 0,
+					["damage"] = 454523,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15195,
+							["critical"] = 3,
+							["hit"] = 20,
+							["totalhits"] = 23,
+							["id"] = 1449,
+							["max"] = 32302,
+							["damage"] = 411675,
+						},
+						["奥术飞弹"] = {
+							["min"] = 21424,
+							["hit"] = 2,
+							["totalhits"] = 2,
+							["id"] = 7268,
+							["max"] = 21424,
+							["damage"] = 42848,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593652,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1414593675,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+					},
+					["auras"] = {
+						["幽魂之狼"] = {
+							["name"] = "幽魂之狼",
+							["active"] = 1,
+							["id"] = 2645,
+							["auratype"] = "BUFF",
+							["uptime"] = 14,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 20,
+					["interrupts"] = 0,
+					["damage"] = 0,
+					["damagespells"] = {
+					},
+					["healed"] = {
+						["Player-938-031DE643"] = {
+							["shielding"] = 0,
+							["class"] = "MAGE",
+							["name"] = "酸菜牛肉",
+							["amount"] = 0,
+						},
+						["Player-938-038DC6B0"] = {
+							["shielding"] = 0,
+							["class"] = "SHAMAN",
+							["name"] = "挖掘机教授",
+							["amount"] = 5667,
+						},
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-038DC6B0",
+					["first"] = 1414593655,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["自走炸弹爆炸"] = {
+							["crushing"] = 0,
+							["id"] = 30844,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 3240,
+							["multistrike"] = 0,
+							["name"] = "自走炸弹爆炸",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 3240,
+							["damage"] = 3240,
+						},
+						["攻击"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 677,
+							["multistrike"] = 0,
+							["name"] = "攻击",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 677,
+							["damage"] = 677,
+						},
+					},
+					["power"] = {
+					},
+					["maxhp"] = 9695,
+					["name"] = "挖掘机教授",
+					["overhealing"] = 3244,
+					["healingspells"] = {
+						["治疗之涌"] = {
+							["shielding"] = 0,
+							["id"] = 8004,
+							["healing"] = 5667,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "治疗之涌",
+							["critical"] = 1,
+							["max"] = 2971,
+							["overhealing"] = 3244,
+							["hits"] = 5,
+							["multistrikes"] = 0,
+						},
+					},
+					["healing"] = 5667,
+					["damagetaken"] = 3917,
+					["multistrikes"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["影月术士"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 46772,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 46772,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["邪兽人新兵"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 677,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 126261,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 677,
+					["taken"] = 126261,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["布洛戈克"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 42848,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 42848,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["初生的邪兽人"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 158424,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 158424,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月技师"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 3240,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 80218,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 3240,
+					["taken"] = 80218,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 3917,
+			["healing"] = 5667,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 3244,
+			["starttime"] = 1414593652,
+			["name"] = "影月术士",
+			["mobname"] = "影月术士",
+			["mobtaken"] = 454523,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593652,
+			["mobdone"] = 3917,
+		}, -- [6]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["endtime"] = 1414593642,
+			["damage"] = 31634,
+			["players"] = {
+				{
+					["last"] = 1414593636,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["嘲颅执行者"] = 31634,
+					},
+					["auras"] = {
+						["黑暗卷须"] = {
+							["name"] = "黑暗卷须",
+							["active"] = 1,
+							["id"] = 90898,
+							["auratype"] = "BUFF",
+							["uptime"] = 6,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 0,
+					["interrupts"] = 0,
+					["damage"] = 31634,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15694,
+							["hit"] = 2,
+							["totalhits"] = 2,
+							["id"] = 1449,
+							["max"] = 15940,
+							["damage"] = 31634,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593636,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["嘲颅执行者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 31634,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 31634,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 0,
+			["healing"] = 0,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414593636,
+			["name"] = "嘲颅执行者 (2)",
+			["mobname"] = "嘲颅执行者",
+			["mobtaken"] = 31634,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593636,
+			["mobdone"] = 0,
+		}, -- [7]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 11,
+			["interrupts"] = 0,
+			["endtime"] = 1414593622,
+			["damage"] = 157874,
+			["players"] = {
+				{
+					["last"] = 1414593621,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["影月术士"] = 32093,
+						["初生的邪兽人"] = 31323,
+						["嘲颅执行者"] = 31527,
+						["嘲颅盗贼"] = 31530,
+						["影月技师"] = 31401,
+					},
+					["auras"] = {
+						["死亡之吻"] = {
+							["name"] = "死亡之吻",
+							["active"] = 1,
+							["id"] = 90895,
+							["auratype"] = "BUFF",
+							["uptime"] = 8,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 9,
+					["interrupts"] = 0,
+					["damage"] = 157874,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15331,
+							["critical"] = 1,
+							["hit"] = 8,
+							["totalhits"] = 9,
+							["id"] = 1449,
+							["max"] = 31530,
+							["damage"] = 157874,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593612,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1414593620,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+					},
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+					["time"] = 2,
+					["interrupts"] = 0,
+					["damage"] = 0,
+					["damagespells"] = {
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-038DC6B0",
+					["first"] = 1414593618,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["暗影箭"] = {
+							["crushing"] = 0,
+							["id"] = 12739,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 1212,
+							["multistrike"] = 0,
+							["name"] = "暗影箭",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 1212,
+							["damage"] = 1212,
+						},
+						["攻击"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 491,
+							["multistrike"] = 0,
+							["name"] = "攻击",
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["max"] = 928,
+							["damage"] = 1419,
+						},
+					},
+					["power"] = {
+					},
+					["maxhp"] = 9695,
+					["name"] = "挖掘机教授",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 2631,
+					["multistrikes"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["影月术士"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 1212,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 32093,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 1212,
+					["taken"] = 32093,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["初生的邪兽人"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 31323,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 31323,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["嘲颅执行者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 31527,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 31527,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["嘲颅盗贼"] = {
+					["players"] = {
+						["挖掘机教授"] = {
+							["taken"] = 0,
+							["done"] = 1419,
+							["class"] = "SHAMAN",
+						},
+						["酸菜牛肉"] = {
+							["taken"] = 31530,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 1419,
+					["taken"] = 31530,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月技师"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 31401,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 31401,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 2631,
+			["healing"] = 0,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414593611,
+			["name"] = "嘲颅执行者",
+			["mobname"] = "嘲颅执行者",
+			["mobtaken"] = 157874,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593611,
+			["mobdone"] = 2631,
+		}, -- [8]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 8,
+			["interrupts"] = 0,
+			["endtime"] = 1414593581,
+			["damage"] = 220037,
+			["players"] = {
+				{
+					["last"] = 1414593579,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["嘲颅执行者"] = 46749,
+						["影月召唤者"] = 79104,
+						["影月术士"] = 30534,
+						["影月专家"] = 63650,
+					},
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+					["time"] = 6,
+					["interrupts"] = 0,
+					["damage"] = 220037,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15694,
+							["critical"] = 5,
+							["hit"] = 4,
+							["totalhits"] = 9,
+							["id"] = 1449,
+							["max"] = 32088,
+							["damage"] = 220037,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593573,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["嘲颅执行者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 46749,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 46749,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月召唤者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 79104,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 79104,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月术士"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 30534,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 30534,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月专家"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 63650,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 63650,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 0,
+			["healing"] = 0,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414593573,
+			["name"] = "影月专家",
+			["mobname"] = "影月专家",
+			["mobtaken"] = 220037,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593573,
+			["mobdone"] = 0,
+		}, -- [9]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 7,
+			["interrupts"] = 0,
+			["endtime"] = 1414593560,
+			["damage"] = 181678,
+			["players"] = {
+				{
+					["last"] = 1414593559,
+					["healingabsorbed"] = 0,
+					["class"] = "MAGE",
+					["damaged"] = {
+						["影月召唤者"] = 15939,
+						["地狱火小鬼"] = 50305,
+						["影月专家"] = 115434,
+					},
+					["auras"] = {
+						["黑暗卷须"] = {
+							["name"] = "黑暗卷须",
+							["active"] = 1,
+							["id"] = 90898,
+							["auratype"] = "BUFF",
+							["uptime"] = 2,
+						},
+					},
+					["ccbreaks"] = 0,
+					["time"] = 5,
+					["interrupts"] = 0,
+					["damage"] = 181678,
+					["damagespells"] = {
+						["魔爆术"] = {
+							["min"] = 15180,
+							["critical"] = 1,
+							["hit"] = 9,
+							["totalhits"] = 10,
+							["id"] = 1449,
+							["max"] = 32514,
+							["damage"] = 181678,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-938-031DE643",
+					["first"] = 1414593554,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["power"] = {
+					},
+					["maxhp"] = 34888,
+					["name"] = "酸菜牛肉",
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["healing"] = 0,
+					["damagetaken"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["影月召唤者"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 15939,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 15939,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["地狱火小鬼"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 50305,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 50305,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影月专家"] = {
+					["players"] = {
+						["酸菜牛肉"] = {
+							["taken"] = 115434,
+							["done"] = 0,
+							["class"] = "MAGE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 115434,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["shielding"] = 0,
+			["damagetaken"] = 0,
+			["healing"] = 0,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["starttime"] = 1414593553,
+			["name"] = "影月召唤者",
+			["mobname"] = "影月召唤者",
+			["mobtaken"] = 181678,
+			["mobhdone"] = 0,
+			["last_action"] = 1414593553,
+			["mobdone"] = 0,
+		}, -- [10]
+	},
+}

@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "分身" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [target=mouseover] 风火雷电
+END

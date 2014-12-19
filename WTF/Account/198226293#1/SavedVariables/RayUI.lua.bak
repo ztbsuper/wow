@@ -1,0 +1,101 @@
+
+RayUIData = {
+	["global"] = {
+		["Gold"] = {
+			["巴瑟拉斯"] = {
+				["Checkout"] = 40915,
+			},
+		},
+		["Tutorial"] = {
+			["configbutton"] = true,
+			["tutorialdone"] = true,
+		},
+		["media"] = {
+			["glow"] = "None",
+			["font"] = "聊天",
+			["pxfont"] = "聊天",
+		},
+		["Class"] = {
+			["巴瑟拉斯"] = {
+				["Checkout"] = "HUNTER",
+			},
+		},
+		["Raid"] = {
+			["AuraWatch"] = {
+				["HUNTER"] = {
+				},
+			},
+		},
+		["general"] = {
+			["uiscale"] = 0.85,
+		},
+	},
+	["profileKeys"] = {
+		["Checkout - 巴瑟拉斯"] = "Checkout - 巴瑟拉斯",
+	},
+	["profiles"] = {
+		["Checkout - 巴瑟拉斯"] = {
+			["ActionBar"] = {
+				["bar3"] = {
+					["autohide"] = false,
+				},
+				["barpet"] = {
+					["autohide"] = false,
+				},
+				["cooldownalpha"] = true,
+				["bar2"] = {
+					["autohide"] = false,
+				},
+				["bar1"] = {
+					["autohide"] = false,
+				},
+			},
+			["CooldownFlash"] = {
+				["enable"] = false,
+			},
+			["layoutchosen"] = true,
+			["specgear"] = {
+				["secondary"] = -1,
+				["primary"] = -1,
+			},
+			["Tooltip"] = {
+				["hideincombat"] = false,
+				["cursor"] = true,
+			},
+			["UnitFrames"] = {
+				["healthColorClass"] = true,
+				["showHealthValue"] = true,
+			},
+			["movers"] = {
+				["目标buff&debuffHolder"] = "TOPUIParentTOP118-326",
+				["RayUFRaid15_1Mover"] = "BOTTOMLEFTUIParentBOTTOMLEFT15235",
+				["PVE/PVP目标buff&debuffHolder"] = "BOTTOMUIParentBOTTOM114336",
+				["RayUFRaid25_1Mover"] = "BOTTOMLEFTUIParentBOTTOMLEFT15235",
+				["PVE/PVP玩家buff&debuffHolder"] = "BOTTOMUIParentBOTTOM8392",
+				["PetBarMover"] = "BOTTOMUIParentBOTTOM-127103",
+				["ActionBar1Mover"] = "BOTTOMUIParentBOTTOM-3242",
+				["AltPowerBarMover"] = "BOTTOMUIParentBOTTOM24158",
+				["RayUF_focusMover"] = "BOTTOMRIGHTUIParentBOTTOMRIGHT-255255",
+				["ActionBar5Mover"] = "TOPRIGHTActionBar4MoverTOPLEFT-60",
+				["目标重要buff&debuffHolder"] = "TOPUIParentTOP111-379",
+				["ActionBar2Mover"] = "BOTTOMUIParentBOTTOM-3172",
+				["AurasMover"] = "TOPRIGHTUIParentTOPRIGHT-12-49",
+				["TotemBarMover"] = "BOTTOMLEFTUIParentBOTTOMLEFT405184",
+				["ArenaHeaderMover"] = "BOTTOMRIGHTUIParentBOTTOMRIGHT-7123",
+				["玩家重要buff&debuffHolder"] = "TOPUIParentTOP-101-384",
+				["玩家buff&debuffHolder"] = "TOPUIParentTOP-102-351",
+				["BossHeaderMover"] = "TOPRIGHTUIParentTOPRIGHT-184-200",
+				["WatchFrameMover"] = "TOPRIGHTUIParentTOPRIGHT-43-200",
+				["ActionBar3Mover"] = "BOTTOMRIGHTUIParentBOTTOMRIGHT-31540",
+				["RayUFRaid40_6Mover"] = "BOTTOMLEFTRayUFRaid25_1MoverTOPLEFT05",
+				["RayUFRaid15_3Mover"] = "BOTTOMLEFTUIParentBOTTOMLEFT203237",
+				["BossButton"] = "BOTTOMUIParentBOTTOM22217",
+				["RaidCDMover"] = "TOPLEFTUIParentTOPLEFT189-170",
+			},
+			["Chat"] = {
+				["autohide"] = false,
+			},
+			["layout"] = "dps",
+		},
+	},
+}

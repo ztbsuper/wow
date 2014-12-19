@@ -1,0 +1,41 @@
+VER 3 0100000000000008 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip 爆炸射击
+/USE 13
+/USE 14
+/cast 爆炸射击
+END
+VER 3 0100000000000006 "ALL WD" "INV_MISC_QUESTIONMARK"
+#showtooltip 误导
+/cast [target=focus,help]误导
+/cast [target=focustarget,help]误导
+/cast [target=target,help]误导
+/cast [target=targettarget,help]误导
+/cast [target=pet,nodead,exists]误导
+END
+VER 3 0100000000000005 "BB" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@pet] 误导
+END
+VER 3 0100000000000004 "奇美拉" "INV_MISC_QUESTIONMARK"
+#showtooltip 奇美拉射击
+/USE 13
+/USE 14
+/cast 奇美拉射击
+END
+VER 3 0100000000000007 "标记" "INV_GIZMO_ROCKETLAUNCHER"
+/script SetRaidTarget("target",8)
+END
+VER 3 0100000000000002 "焦点误导" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [@focus] 误导
+END
+VER 3 0100000000000003 "稳固" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 稳固射击
+/CAST 火箭弹幕
+END
+VER 3 0100000000000001 "误导" "INV_MISC_QUESTIONMARK"
+#showtooltip 误导
+/cast [target=focus,help]误导
+/cast [target=pet,nodead,exists]误导
+END

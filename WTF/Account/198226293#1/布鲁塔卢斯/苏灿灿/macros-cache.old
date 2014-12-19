@@ -1,0 +1,80 @@
+VER 3 010000000000000D "WAY" "INV_MISC_QUESTIONMARK"
+/way 63.8, 59.2
+/way 65.6, 47.8
+/way 58, 50.8
+/way 55.6, 44.4
+/way 51.2, 46
+/way 46.8, 46.8
+/way 47, 53.7
+/way 44.2, 65.2
+/way 52.8, 63
+/way 53, 70.8
+/way 49.8, 65.8
+/way 60.4, 66.2
+/way 65, 75.6
+/cway 
+END
+VER 3 010000000000000E "分身" "INV_MISC_QUESTIONMARK"
+#showtooltip 风火雷电
+/cast [target=mouseover,nomodifier,exists] 风火雷电;风火雷电
+END
+VER 3 0100000000000009 "开怪" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/dbm pull
+END
+VER 3 0100000000000005 "收草" "INV_MISC_QUESTIONMARK"
+/5 收黄金莲75G/个，小草40G/组，有多少都要，支持顺风快递COD
+END
+VER 3 010000000000000A "滚" "INV_MISC_QUESTIONMARK"
+#showtooltip 滚地翻
+/cast 滚地翻
+/cast !繁花铺道
+END
+VER 3 0100000000000007 "爆发" "INV_MISC_QUESTIONMARK"
+#showtooltip 豪能酒
+/cast 虎眼酒
+/cast 豪能酒
+/use 朱鹤之握
+/use 13
+/use 12
+/use 14
+END
+VER 3 010000000000000C "猛虎掌" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/script ToggleSheath();
+/cast 猛虎掌
+END
+VER 3 0100000000000011 "白虎" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 白虎下凡
+END
+VER 3 0100000000000010 "群嘲" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [target=玄牛雕像] 嚎镇八方
+END
+VER 3 0100000000000006 "诸" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/CAST 禅意珠
+/CAST 真气波
+END
+VER 3 010000000000000B "贯日击" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/script ToggleSheath();
+/cast 贯日击
+END
+VER 3 0100000000000002 "进团" "INV_MISC_QUESTIONMARK"
+/RW 欢迎来到899团，YY:44732169，请保持团队和谐，一需团，进团主天赋>职业
+END
+VER 3 010000000000000F "醉酿投" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 醉酿投
+/use 朱鹤护手
+END
+VER 3 0100000000000008 "防御" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 散魔功
+/cast 躯不坏
+END
+VER 3 0100000000000003 "魂体双份" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast [nopet][mod]魂体双分;魂体双分：转移
+END

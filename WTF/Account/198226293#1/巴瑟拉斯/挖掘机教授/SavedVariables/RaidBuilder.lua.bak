@@ -1,0 +1,19 @@
+
+RAIDBUILDER_CHARACTER_DB = {
+	["profileKeys"] = {
+		["挖掘机教授 - 巴瑟拉斯"] = "挖掘机教授 - 巴瑟拉斯",
+	},
+	["profiles"] = {
+		["挖掘机教授 - 巴瑟拉斯"] = {
+			["settings"] = {
+				["storage"] = {
+					["y"] = -181.479957580566,
+					["x"] = -20.5732421875,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+				},
+				["defaultPanel"] = 2,
+			},
+		},
+	},
+}

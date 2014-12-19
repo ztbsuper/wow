@@ -1,0 +1,24 @@
+## Interface: 60000
+## Version: 6.0.3.2
+## X-Curse-Packaged-Version: 6.0.3.2
+## X-Curse-Project-Name: HandyNotes: Higher Learning
+## X-Curse-Project-ID: handynotes-higher-learning
+## X-Curse-Repository-ID: wow/handynotes-higher-learning/mainline
+
+## Title: HandyNotes: Higher Learning
+## Notes: Shows the books you still need to read for the Higher Learning achievement.
+## Title-deDE: HandyNotes: Höheres Studium
+## Notes-deDE: Zeigt die Bücher an, die Ihr für den Erfolg "Höheres Studium" noch lesen müsst.
+## Title-esES: HandyNotes: Conocimiento superior
+## Notes-esES: Muestra los libros que todavía debes que leer para el logro "Conocimiento superior".
+## Title-esMX: HandyNotes: Conocimiento superior
+## Notes-esMX: Muestra los libros que todavía debes que leer para el logro "Conocimiento superior".
+
+## Author: Phanx
+## X-Email: addons@phanx.net
+## X-Copyright: Copyright (c) 2013-2014 Phanx. All rights reserved.
+## X-Website: https://github.com/Phanx/HandyNotes_HigherLearning
+
+## Dependencies: HandyNotes
+
+Addon.lua

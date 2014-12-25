@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 284,
 	["lastSanitation"] = 3,
+	["session"] = 315,
 	["errors"] = {
 		{
 			["message"] = "...-3.0\\AceConfigRegistry-3.0\\AceConfigRegistry-3.0-15.lua:-1: script ran too long",
@@ -62,24 +62,32 @@ BugGrabberDB = {
 			["time"] = "2014/12/14 20:06:02",
 			["locals"] = "",
 			["stack"] = "Interface\\AddOns\\DBM-StatusBarTimers\\DBT.lua:569: in function <Interface\\AddOns\\DBM-StatusBarTimers\\DBT.lua:565>\n(tail call): ?\nInterface\\AddOns\\DBM-Highmaul\\TheButcher.lua:147: in function `handler'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:505: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:492>\n(tail call): ?\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:505: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:492>",
-			["session"] = 283,
-			["counter"] = 11,
+			["session"] = 286,
+			["counter"] = 13,
 		}, -- [8]
+		{
+			["message"] = "...face\\AddOns\\DBM-Icecrown\\TheCrimsonHall\\Lanathel.lua:202: attempt to call method 'GetFullNameByShortName' (a nil value)",
+			["time"] = "2014/12/22 21:34:04",
+			["locals"] = "",
+			["stack"] = "...face\\AddOns\\DBM-Icecrown\\TheCrimsonHall\\Lanathel.lua:202: in function `handler'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:505: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:492>",
+			["session"] = 297,
+			["counter"] = 30,
+		}, -- [9]
 		{
 			["message"] = "...terface\\AddOns\\DBM-Core\\libs\\Astrolabe\\Astrolabe.lua:425: attempt to index field '?' (a nil value)",
 			["time"] = "2014/12/14 12:00:42",
 			["locals"] = "self = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n activeObjects = 0\n EnableModule = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n baseName = \"DBM-Core\"\n IterateEmbeds = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:473\n FreeEncounterMarkers = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1201\n textures = <table> {\n }\n DistanceToPoint = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1208\n PointExists = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:312\n SetDefaultModulePrototype = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:440\n textureVals = <table> {\n }\n defaultModuleState = true\n IsEnabled = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:482\n DisableModule = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:381\n free = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:154\n RegisterMessage = <function> defined @Interface\\AddOns\\Bagnon\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:118\n UnregisterMessage = <function> defined @Interface\\AddOns\\Bagnon\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:181\n Update = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1296\n RangeToPixels = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1361\n Toggle = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1405\n RegisterEncounterMarker = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1192\n SetEnabledState = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:455\n HideCanvas = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1401\n enabledState = true\n COMBAT_LOG_EVENT_UNFILTERED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:327\n RegisterEvent = <function> defined @Interface\\AddOns\\Bagnon\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:118\n IterateModules = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:468\n minimapSize = <table> {\n }\n ShowCanvas = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1391\n UpdateMode = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1175\n OnInitialize = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:272\n NewModule = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:266\n UpdateZoneData = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1240\n GetModule = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:241\n CoordsToPosition = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1232\n FreeEncounterMarker = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1197\n SetZoom = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1281\n UpdateFrame = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:307\n GetUnitPosition = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1225\n GetName = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:310\n PlaceStaticMarkerOnPartyMember = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1182\n UnregisterCallback = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:179\n pixelsPerYard = 21.33333468967\n orderedModules = <table> {\n }\n Disable = <function> defined @Interface\\AddOns\\Broker_Garrison\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:345\n GetMinimapSize = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1301\n RegisterTexture = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:126\n group = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:181\n UnitIsMappable = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:144\n LocationToMinimapOffset = <functio",
 			["stack"] = "...terface\\AddOns\\DBM-Core\\libs\\Astrolabe\\Astrolabe.lua:425: in function `GetMapInfo'\nInterface\\AddOns\\DBM-Core\\DBM-HudMap.lua:1257: in function `UpdateZoneData'\nInterface\\AddOns\\DBM-Core\\DBM-HudMap.lua:229: in function <Interface\\AddOns\\DBM-Core\\DBM-HudMap.lua:223>",
-			["session"] = 283,
-			["counter"] = 348,
-		}, -- [9]
+			["session"] = 314,
+			["counter"] = 818,
+		}, -- [10]
 		{
 			["message"] = "...nterface\\AddOns\\HandyNotes_Directions\\Directions.lua:6: Cannot find a library with name 'Astrolabe-0.4'",
 			["time"] = "2014/12/14 12:01:16",
 			["locals"] = "t = <table> {\n GetVersion = <function> defined @Interface\\AddOns\\HandyNotes\\Libs\\Astrolabe\\DongleStub.lua:108\n IsNewerVersion = <function> defined @Interface\\AddOns\\HandyNotes\\Libs\\Astrolabe\\DongleStub.lua:22\n versions = <table> {\n }\n log = <table> {\n }\n Register = <function> defined @Interface\\AddOns\\HandyNotes\\Libs\\Astrolabe\\DongleStub.lua:50\n}\nk = \"Astrolabe-0.4\"\n",
 			["stack"] = "[C]: in function `error'\n...face\\AddOns\\HandyNotes\\Libs\\Astrolabe\\DongleStub.lua:17: in function `DongleStub'\n...nterface\\AddOns\\HandyNotes_Directions\\Directions.lua:6: in main chunk",
-			["session"] = 284,
-			["counter"] = 24,
-		}, -- [10]
+			["session"] = 315,
+			["counter"] = 55,
+		}, -- [11]
 	},
 }

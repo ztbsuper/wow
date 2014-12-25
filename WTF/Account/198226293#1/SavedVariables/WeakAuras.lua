@@ -31,32 +31,33 @@ WeakAurasSaved = {
 			["borderOffset"] = 5,
 			["selfPoint"] = "BOTTOMLEFT",
 			["trigger"] = {
-				["unit"] = "player",
-				["type"] = "aura",
-				["debuffType"] = "HELPFUL",
 				["names"] = {
 				},
+				["type"] = "aura",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
 			},
 			["frameStrata"] = 1,
-			["regionType"] = "group",
+			["untrigger"] = {
+			},
 			["borderInset"] = 11,
 			["numTriggers"] = 1,
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["main"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
-			["id"] = "武僧",
 			["borderEdge"] = "None",
+			["id"] = "武僧",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -83,8 +84,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["untrigger"] = {
-			},
+			["regionType"] = "group",
 		},
 		["猎人"] = {
 			["backdropColor"] = {
@@ -123,33 +123,34 @@ WeakAurasSaved = {
 			["borderOffset"] = 5,
 			["selfPoint"] = "BOTTOMLEFT",
 			["trigger"] = {
-				["unit"] = "player",
-				["type"] = "aura",
-				["debuffType"] = "HELPFUL",
 				["names"] = {
 				},
+				["type"] = "aura",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
 			},
 			["frameStrata"] = 1,
-			["expanded"] = true,
+			["untrigger"] = {
+			},
 			["regionType"] = "group",
 			["borderInset"] = 11,
 			["numTriggers"] = 1,
+			["borderEdge"] = "None",
+			["id"] = "猎人",
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["main"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
-			["id"] = "猎人",
-			["borderEdge"] = "None",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -176,8 +177,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["untrigger"] = {
-			},
+			["expanded"] = true,
 		},
 		["飞刃"] = {
 			["xOffset"] = -60.3731689453125,
@@ -189,21 +189,21 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "status",
-				["custom_hide"] = "timed",
+				["spellName"] = 117050,
 				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
+				["use_remaining"] = true,
 				["remaining_operator"] = "<=",
 				["event"] = "Cooldown Progress (Spell)",
 				["unit"] = "player",
+				["remaining"] = "2.5",
+				["use_spellName"] = true,
+				["use_unit"] = true,
+				["unevent"] = "auto",
+				["subeventPrefix"] = "SPELL",
 				["names"] = {
 				},
-				["remaining"] = "2.5",
-				["subeventPrefix"] = "SPELL",
-				["unevent"] = "auto",
-				["use_unit"] = true,
-				["use_spellName"] = true,
-				["use_remaining"] = true,
-				["spellName"] = 117050,
+				["debuffType"] = "HELPFUL",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
@@ -245,12 +245,16 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["parent"] = "猎人",
-			["stacksPoint"] = "BOTTOMRIGHT",
-			["disjunctive"] = true,
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.730000019073486, -- [4]
+			},
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["stickyDuration"] = false,
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -261,9 +265,9 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_spellName"] = true,
 						["use_targetRequired"] = false,
-						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
 						["unit"] = "player",
+						["use_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 117050,
 					},
 					["untrigger"] = {
@@ -271,44 +275,40 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
+			["id"] = "飞刃",
+			["untrigger"] = {
+				["spellName"] = 117050,
 			},
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["numTriggers"] = 2,
+			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 					["do_glow"] = true,
-					["glow_action"] = "show",
 					["glow_frame"] = "WeakAuras:飞刃",
+					["glow_action"] = "show",
 				},
 			},
-			["inverse"] = false,
-			["untrigger"] = {
-				["spellName"] = 117050,
+			["numTriggers"] = 2,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
 			},
-			["id"] = "飞刃",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.730000019073486, -- [4]
-			},
-			["cooldown"] = true,
+			["stickyDuration"] = false,
+			["disjunctive"] = true,
+			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -328,25 +328,25 @@ WeakAurasSaved = {
 				["remaining_operator"] = "<=",
 				["subeventPrefix"] = "SPELL",
 				["remaining"] = "2",
-				["spellName"] = 19434,
 				["custom_hide"] = "timed",
-				["use_powertype"] = false,
 				["debuffType"] = "HELPFUL",
-				["use_unit"] = true,
+				["use_powertype"] = false,
+				["spellName"] = 19434,
+				["powertype"] = 3,
 				["use_remaining"] = true,
-				["unit"] = "player",
 				["power"] = "50",
+				["unevent"] = "auto",
 				["power_operator"] = ">=",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Power",
-				["use_percentpower"] = true,
-				["use_power"] = false,
-				["use_spellName"] = true,
-				["type"] = "status",
 				["names"] = {
 				},
-				["unevent"] = "auto",
-				["powertype"] = 3,
+				["event"] = "Power",
+				["use_percentpower"] = true,
+				["type"] = "status",
+				["use_spellName"] = true,
+				["use_power"] = false,
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["use_unit"] = true,
 				["percentpower"] = "45",
 				["percentpower_operator"] = ">=",
 			},
@@ -388,7 +388,7 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["parent"] = "猎人",
-			["stacksPoint"] = "BOTTOMRIGHT",
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -398,41 +398,41 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "瞄准射击",
+			["untrigger"] = {
+				["use_unit"] = true,
+				["unit"] = "player",
+				["spellName"] = 19434,
+			},
 			["additional_triggers"] = {
 			},
-			["stickyDuration"] = false,
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["numTriggers"] = 1,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 				},
 			},
-			["untrigger"] = {
-				["spellName"] = 19434,
-				["unit"] = "player",
-				["use_unit"] = true,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
 			},
+			["numTriggers"] = 1,
+			["stickyDuration"] = false,
+			["id"] = "瞄准射击",
 			["displayIcon"] = "Interface\\Icons\\INV_Spear_07",
-			["cooldown"] = true,
+			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -450,21 +450,21 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "status",
-				["custom_hide"] = "timed",
+				["spellName"] = 131894,
 				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
+				["use_remaining"] = true,
 				["remaining_operator"] = "<=",
 				["event"] = "Cooldown Progress (Spell)",
 				["unit"] = "player",
+				["remaining"] = "4",
+				["use_spellName"] = true,
+				["use_unit"] = true,
+				["unevent"] = "auto",
+				["subeventPrefix"] = "SPELL",
 				["names"] = {
 				},
-				["remaining"] = "4",
-				["subeventPrefix"] = "SPELL",
-				["unevent"] = "auto",
-				["use_unit"] = true,
-				["use_spellName"] = true,
-				["use_remaining"] = true,
-				["spellName"] = 131894,
+				["debuffType"] = "HELPFUL",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
@@ -504,12 +504,16 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["parent"] = "猎人",
-			["stacksPoint"] = "BOTTOMRIGHT",
-			["disjunctive"] = true,
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.74545431137085, -- [4]
+			},
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["stickyDuration"] = false,
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -519,9 +523,9 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_spellName"] = true,
 						["use_targetRequired"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
 						["unit"] = "player",
+						["use_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 131894,
 					},
 					["untrigger"] = {
@@ -529,6 +533,79 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["id"] = "夺命黑鸦",
+			["untrigger"] = {
+				["spellName"] = 131894,
+			},
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["inverse"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["numTriggers"] = 2,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["stickyDuration"] = false,
+			["disjunctive"] = true,
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["弹幕射击"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.624242126941681, -- [4]
+			},
+			["fontSize"] = 12,
+			["displayStacks"] = "%s",
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["parent"] = "猎人",
+			["untrigger"] = {
+				["spellName"] = 120360,
+			},
+			["anchorPoint"] = "CENTER",
+			["yOffset"] = 34.1333312988281,
+			["regionType"] = "icon",
+			["icon"] = true,
+			["inverse"] = false,
+			["selfPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["stickyDuration"] = false,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = true,
+					["glow_action"] = "show",
+					["glow_frame"] = "AceGUI-3.0EditBox1",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -543,61 +620,41 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["frameStrata"] = 1,
+			["trigger"] = {
+				["type"] = "status",
+				["debuffType"] = "HELPFUL",
+				["subeventSuffix"] = "_CAST_START",
+				["names"] = {
+				},
+				["remaining_operator"] = "<=",
+				["event"] = "Cooldown Progress (Spell)",
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
+				["remaining"] = "3",
+				["unevent"] = "auto",
+				["use_unit"] = true,
+				["use_remaining"] = true,
+				["use_spellName"] = true,
+				["spellName"] = 120360,
+				["custom_hide"] = "timed",
+			},
 			["width"] = 64,
-			["numTriggers"] = 2,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["inverse"] = false,
-			["untrigger"] = {
-				["spellName"] = 131894,
-			},
-			["id"] = "夺命黑鸦",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.74545431137085, -- [4]
-			},
-			["cooldown"] = true,
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["弹幕射击"] = {
-			["parent"] = "猎人",
-			["fontSize"] = 12,
-			["displayStacks"] = "%s",
-			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.624242126941681, -- [4]
-			},
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["id"] = "弹幕射击",
+			["font"] = "Friz Quadrata TT",
+			["numTriggers"] = 1,
+			["xOffset"] = -64.0001220703125,
+			["height"] = 64,
 			["load"] = {
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
+				["use_talent"] = true,
 				["talent"] = {
 					["single"] = 18,
-					["multi"] = {
-					},
-				},
-				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -612,15 +669,40 @@ WeakAurasSaved = {
 						[2] = true,
 					},
 				},
-				["use_talent"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["cooldown"] = true,
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["急速射击"] = {
+			["fontSize"] = 12,
+			["displayStacks"] = "%s",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.503030568361282, -- [4]
+			},
+			["parent"] = "猎人",
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["anchorPoint"] = "CENTER",
+			["untrigger"] = {
+				["spellName"] = 3045,
 			},
 			["regionType"] = "icon",
-			["untrigger"] = {
-				["spellName"] = 120360,
-			},
-			["anchorPoint"] = "CENTER",
-			["xOffset"] = -64.0001220703125,
-			["numTriggers"] = 1,
+			["xOffset"] = -129.706665039063,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -635,8 +717,9 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["numTriggers"] = 1,
 			["customTextUpdate"] = "update",
-			["id"] = "弹幕射击",
+			["id"] = "急速射击",
 			["icon"] = true,
 			["fontFlags"] = "OUTLINE",
 			["stacksContainment"] = "INSIDE",
@@ -645,57 +728,33 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "status",
-				["custom_hide"] = "timed",
 				["subeventSuffix"] = "_CAST_START",
-				["spellName"] = 120360,
-				["remaining_operator"] = "<=",
-				["event"] = "Cooldown Progress (Spell)",
-				["names"] = {
-				},
+				["event"] = "Action Usable",
+				["unit"] = "player",
+				["spellName"] = 3045,
 				["use_spellName"] = true,
-				["remaining"] = "3",
-				["use_remaining"] = true,
 				["use_unit"] = true,
 				["unevent"] = "auto",
 				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["debuffType"] = "HELPFUL",
+				["custom_hide"] = "timed",
 			},
-			["desaturate"] = false,
-			["frameStrata"] = 1,
-			["stickyDuration"] = false,
 			["width"] = 64,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["stickyDuration"] = false,
 			["font"] = "Friz Quadrata TT",
 			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
-					["do_glow"] = true,
-					["glow_frame"] = "AceGUI-3.0EditBox1",
-					["glow_action"] = "show",
 				},
 				["finish"] = {
 				},
 			},
 			["height"] = 64,
-			["yOffset"] = 34.1333312988281,
-			["stacksPoint"] = "BOTTOMRIGHT",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["急速射击"] = {
-			["fontSize"] = 12,
-			["displayStacks"] = "%s",
-			["parent"] = "猎人",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.503030568361282, -- [4]
-			},
+			["yOffset"] = -72.8178100585938,
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -727,65 +786,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["yOffset"] = -72.8178100585938,
-			["untrigger"] = {
-				["spellName"] = 3045,
-			},
-			["anchorPoint"] = "CENTER",
-			["xOffset"] = -129.706665039063,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["inverse"] = false,
-			["customTextUpdate"] = "update",
-			["trigger"] = {
-				["type"] = "status",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Action Usable",
-				["unit"] = "player",
-				["custom_hide"] = "timed",
-				["use_spellName"] = true,
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["subeventPrefix"] = "SPELL",
-				["unevent"] = "auto",
-				["use_unit"] = true,
-				["spellName"] = 3045,
-			},
-			["icon"] = true,
-			["fontFlags"] = "OUTLINE",
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["id"] = "急速射击",
-			["desaturate"] = false,
-			["frameStrata"] = 1,
-			["stickyDuration"] = false,
-			["width"] = 64,
-			["font"] = "Friz Quadrata TT",
-			["numTriggers"] = 1,
-			["selfPoint"] = "CENTER",
-			["height"] = 64,
-			["regionType"] = "icon",
-			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -809,18 +809,18 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["type"] = "status",
 				["subeventSuffix"] = "_CAST_START",
-				["custom_hide"] = "timed",
+				["spellName"] = 53351,
 				["event"] = "Action Usable",
 				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
+				["use_targetRequired"] = false,
 				["use_spellName"] = true,
+				["use_unit"] = true,
+				["unevent"] = "auto",
+				["subeventPrefix"] = "SPELL",
 				["names"] = {
 				},
-				["subeventPrefix"] = "SPELL",
-				["unevent"] = "auto",
-				["use_unit"] = true,
-				["use_targetRequired"] = false,
-				["spellName"] = 53351,
+				["debuffType"] = "HELPFUL",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
@@ -864,18 +864,27 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.733332961797714, -- [4]
-			},
+			["stickyDuration"] = false,
 			["id"] = "夺命射击",
-			["untrigger"] = {
-				["spellName"] = 53351,
-			},
+			["icon"] = true,
 			["frameStrata"] = 1,
 			["width"] = 64,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["numTriggers"] = 2,
+			["inverse"] = false,
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -886,10 +895,10 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_spellName"] = true,
 						["remaining"] = "2",
-						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
-						["unit"] = "player",
 						["use_remaining"] = true,
+						["unit"] = "player",
+						["use_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 53351,
 					},
 					["untrigger"] = {
@@ -897,24 +906,15 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["inverse"] = false,
-			["numTriggers"] = 2,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
+			["untrigger"] = {
+				["spellName"] = 53351,
 			},
-			["icon"] = true,
-			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.733332961797714, -- [4]
+			},
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
@@ -940,18 +940,18 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 				["use_remaining"] = true,
 				["custom_type"] = "status",
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
+				["use_charges"] = false,
+				["use_unit"] = true,
 				["event"] = "Cooldown Progress (Spell)",
-				["spellName"] = 53209,
+				["type"] = "status",
 				["subeventSuffix"] = "_CAST_START",
 				["use_spellName"] = true,
-				["unit"] = "player",
 				["unevent"] = "auto",
+				["unit"] = "player",
 				["check"] = "update",
-				["type"] = "status",
-				["use_unit"] = true,
-				["use_charges"] = false,
+				["spellName"] = 53209,
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
 			},
 			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
@@ -977,13 +977,13 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spec"] = true,
-				["use_zone"] = false,
-				["use_combat"] = true,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
+				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -993,12 +993,16 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["parent"] = "猎人",
-			["stacksPoint"] = "BOTTOMRIGHT",
-			["disjunctive"] = true,
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.67272686958313, -- [4]
+			},
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["stickyDuration"] = true,
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
@@ -1008,9 +1012,9 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_spellName"] = true,
 						["use_targetRequired"] = true,
-						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
 						["unit"] = "player",
+						["use_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 53209,
 					},
 					["untrigger"] = {
@@ -1018,23 +1022,16 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
+			["id"] = "奇美拉射击",
+			["untrigger"] = {
+				["use_unit"] = true,
+				["use_spellName"] = true,
+				["unit"] = "player",
+				["spellName"] = 53209,
 			},
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["numTriggers"] = 2,
+			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
 					["do_glow"] = false,
@@ -1043,21 +1040,24 @@ WeakAurasSaved = {
 					["do_glow"] = false,
 				},
 			},
-			["inverse"] = false,
-			["untrigger"] = {
-				["spellName"] = 53209,
-				["use_spellName"] = true,
-				["unit"] = "player",
-				["use_unit"] = true,
+			["numTriggers"] = 2,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
 			},
-			["id"] = "奇美拉射击",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.67272686958313, -- [4]
-			},
-			["cooldown"] = true,
+			["stickyDuration"] = true,
+			["disjunctive"] = true,
+			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1067,15 +1067,6 @@ WeakAurasSaved = {
 		},
 	},
 	["registered"] = {
-	},
-	["login_squelch_time"] = 10,
-	["frame"] = {
-		["xOffset"] = -435.600463867188,
-		["yOffset"] = -250.710754394531,
-		["height"] = 491.999938964844,
-		["width"] = 630,
-	},
-	["tempIconCache"] = {
 	},
 	["talent_cache"] = {
 		["HUNTER"] = {
@@ -1510,90 +1501,90 @@ WeakAurasSaved = {
 				["icon"] = "Interface\\Icons\\spell_warlock_demonicservitude",
 			}, -- [21]
 		},
-		["PALADIN"] = {
+		["SHAMAN"] = {
 			{
-				["name"] = "圣光之速",
-				["icon"] = "Interface\\Icons\\ability_paladin_speedoflight",
+				["name"] = "自然守护者",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
 			}, -- [1]
 			{
-				["name"] = "法网恢恢",
-				["icon"] = "Interface\\Icons\\ability_paladin_longarmofthelaw",
+				["name"] = "石壁图腾",
+				["icon"] = "Interface\\Icons\\ability_shaman_stonebulwark",
 			}, -- [2]
 			{
-				["name"] = "正义追击",
-				["icon"] = "Interface\\Icons\\ability_paladin_veneration",
+				["name"] = "星界转移",
+				["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
 			}, -- [3]
 			{
-				["name"] = "制裁之拳",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+				["name"] = "冰霜之力",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BlueCano",
 			}, -- [4]
 			{
-				["name"] = "忏悔",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+				["name"] = "陷地图腾",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
 			}, -- [5]
 			{
-				["name"] = "盲目之光",
-				["icon"] = "Interface\\Icons\\ability_paladin_blindinglight",
+				["name"] = "风行图腾",
+				["icon"] = "Interface\\Icons\\ability_shaman_windwalktotem",
 			}, -- [6]
 			{
-				["name"] = "无私治愈",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
+				["name"] = "元素的召唤",
+				["icon"] = "Interface\\Icons\\ability_shaman_multitotemactivation",
 			}, -- [7]
 			{
-				["name"] = "永恒之火",
-				["icon"] = "Interface\\Icons\\INV_Torch_Thrown",
+				["name"] = "图腾传承",
+				["icon"] = "Interface\\Icons\\ability_shaman_totemcooldownrefund",
 			}, -- [8]
 			{
-				["name"] = "圣洁护盾",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
+				["name"] = "图腾投掷",
+				["icon"] = "Interface\\Icons\\ability_shaman_totemrelocation",
 			}, -- [9]
 			{
-				["name"] = "纯净之手",
-				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfWisdom",
+				["name"] = "元素掌握",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
 			}, -- [10]
 			{
-				["name"] = "不败之魂",
-				["icon"] = "Interface\\Icons\\spell_holy_unyieldingfaith",
+				["name"] = "先祖迅捷",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ElementalOath",
 			}, -- [11]
 			{
-				["name"] = "仁慈",
-				["icon"] = "Interface\\Icons\\ability_paladin_clemency",
+				["name"] = "元素回响",
+				["icon"] = "Interface\\Icons\\ability_shaman_echooftheelements",
 			}, -- [12]
 			{
-				["name"] = "神圣复仇者",
-				["icon"] = "Interface\\Icons\\ability_paladin_holyavenger",
+				["name"] = "涌动之泉",
+				["icon"] = "Interface\\Icons\\INV_Spear_04",
 			}, -- [13]
 			{
-				["name"] = "圣洁怒火",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_SanctifiedWrath",
+				["name"] = "先祖指引",
+				["icon"] = "Interface\\Icons\\ability_shaman_ancestralguidance",
 			}, -- [14]
 			{
-				["name"] = "神圣意志",
-				["icon"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
+				["name"] = "导电体质",
+				["icon"] = "Interface\\Icons\\ability_shaman_fortifyingwaters",
 			}, -- [15]
 			{
-				["name"] = "神圣棱镜",
-				["icon"] = "Interface\\Icons\\spell_paladin_holyprism",
+				["name"] = "怒火释放",
+				["icon"] = "Interface\\Icons\\shaman_talent_unleashedfury",
 			}, -- [16]
 			{
-				["name"] = "圣光之锤",
-				["icon"] = "Interface\\Icons\\spell_paladin_lightshammer",
+				["name"] = "元素尊者",
+				["icon"] = "Interface\\Icons\\shaman_talent_primalelementalist",
 			}, -- [17]
 			{
-				["name"] = "处决宣判",
-				["icon"] = "Interface\\Icons\\spell_paladin_executionsentence",
+				["name"] = "元素冲击",
+				["icon"] = "Interface\\Icons\\shaman_talent_elementalblast",
 			}, -- [18]
 			{
-				["name"] = "强化圣印",
-				["icon"] = "Interface\\Icons\\ability_paladin_empoweredseals",
+				["name"] = "元素融合",
+				["icon"] = "Interface\\Icons\\spell_shaman_shockinglava",
 			}, -- [19]
 			{
-				["name"] = "炽天使",
-				["icon"] = "Interface\\Icons\\ability_paladin_seraphim",
+				["name"] = "风暴元素图腾",
+				["icon"] = "Interface\\Icons\\spell_shaman_stormtotem",
 			}, -- [20]
 			{
-				["name"] = "神圣之盾",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
+				["name"] = "岩浆",
+				["icon"] = "Interface\\Icons\\spell_shaman_spewlava",
 			}, -- [21]
 		},
 		["DEATHKNIGHT"] = {
@@ -1770,91 +1761,100 @@ WeakAurasSaved = {
 				["icon"] = "Interface\\Icons\\ability_monk_serenity",
 			}, -- [21]
 		},
-		["SHAMAN"] = {
+		["PALADIN"] = {
 			{
-				["name"] = "自然守护者",
-				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
+				["name"] = "圣光之速",
+				["icon"] = "Interface\\Icons\\ability_paladin_speedoflight",
 			}, -- [1]
 			{
-				["name"] = "石壁图腾",
-				["icon"] = "Interface\\Icons\\ability_shaman_stonebulwark",
+				["name"] = "法网恢恢",
+				["icon"] = "Interface\\Icons\\ability_paladin_longarmofthelaw",
 			}, -- [2]
 			{
-				["name"] = "星界转移",
-				["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
+				["name"] = "正义追击",
+				["icon"] = "Interface\\Icons\\ability_paladin_veneration",
 			}, -- [3]
 			{
-				["name"] = "冰霜之力",
-				["icon"] = "Interface\\Icons\\Spell_Fire_BlueCano",
+				["name"] = "制裁之拳",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			}, -- [4]
 			{
-				["name"] = "陷地图腾",
-				["icon"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
+				["name"] = "忏悔",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 			}, -- [5]
 			{
-				["name"] = "风行图腾",
-				["icon"] = "Interface\\Icons\\ability_shaman_windwalktotem",
+				["name"] = "盲目之光",
+				["icon"] = "Interface\\Icons\\ability_paladin_blindinglight",
 			}, -- [6]
 			{
-				["name"] = "元素的召唤",
-				["icon"] = "Interface\\Icons\\ability_shaman_multitotemactivation",
+				["name"] = "无私治愈",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
 			}, -- [7]
 			{
-				["name"] = "图腾传承",
-				["icon"] = "Interface\\Icons\\ability_shaman_totemcooldownrefund",
+				["name"] = "永恒之火",
+				["icon"] = "Interface\\Icons\\INV_Torch_Thrown",
 			}, -- [8]
 			{
-				["name"] = "图腾投掷",
-				["icon"] = "Interface\\Icons\\ability_shaman_totemrelocation",
+				["name"] = "圣洁护盾",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
 			}, -- [9]
 			{
-				["name"] = "元素掌握",
-				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+				["name"] = "纯净之手",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfWisdom",
 			}, -- [10]
 			{
-				["name"] = "先祖迅捷",
-				["icon"] = "Interface\\Icons\\Spell_Shaman_ElementalOath",
+				["name"] = "不败之魂",
+				["icon"] = "Interface\\Icons\\spell_holy_unyieldingfaith",
 			}, -- [11]
 			{
-				["name"] = "元素回响",
-				["icon"] = "Interface\\Icons\\ability_shaman_echooftheelements",
+				["name"] = "仁慈",
+				["icon"] = "Interface\\Icons\\ability_paladin_clemency",
 			}, -- [12]
 			{
-				["name"] = "涌动之泉",
-				["icon"] = "Interface\\Icons\\INV_Spear_04",
+				["name"] = "神圣复仇者",
+				["icon"] = "Interface\\Icons\\ability_paladin_holyavenger",
 			}, -- [13]
 			{
-				["name"] = "先祖指引",
-				["icon"] = "Interface\\Icons\\ability_shaman_ancestralguidance",
+				["name"] = "圣洁怒火",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SanctifiedWrath",
 			}, -- [14]
 			{
-				["name"] = "导电体质",
-				["icon"] = "Interface\\Icons\\ability_shaman_fortifyingwaters",
+				["name"] = "神圣意志",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
 			}, -- [15]
 			{
-				["name"] = "怒火释放",
-				["icon"] = "Interface\\Icons\\shaman_talent_unleashedfury",
+				["name"] = "神圣棱镜",
+				["icon"] = "Interface\\Icons\\spell_paladin_holyprism",
 			}, -- [16]
 			{
-				["name"] = "元素尊者",
-				["icon"] = "Interface\\Icons\\shaman_talent_primalelementalist",
+				["name"] = "圣光之锤",
+				["icon"] = "Interface\\Icons\\spell_paladin_lightshammer",
 			}, -- [17]
 			{
-				["name"] = "元素冲击",
-				["icon"] = "Interface\\Icons\\shaman_talent_elementalblast",
+				["name"] = "处决宣判",
+				["icon"] = "Interface\\Icons\\spell_paladin_executionsentence",
 			}, -- [18]
 			{
-				["name"] = "元素融合",
-				["icon"] = "Interface\\Icons\\spell_shaman_shockinglava",
+				["name"] = "强化圣印",
+				["icon"] = "Interface\\Icons\\ability_paladin_empoweredseals",
 			}, -- [19]
 			{
-				["name"] = "风暴元素图腾",
-				["icon"] = "Interface\\Icons\\spell_shaman_stormtotem",
+				["name"] = "炽天使",
+				["icon"] = "Interface\\Icons\\ability_paladin_seraphim",
 			}, -- [20]
 			{
-				["name"] = "岩浆",
-				["icon"] = "Interface\\Icons\\spell_shaman_spewlava",
+				["name"] = "神圣之盾",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
 			}, -- [21]
 		},
 	},
+	["frame"] = {
+		["xOffset"] = -435.600463867188,
+		["width"] = 630,
+		["height"] = 491.999938964844,
+		["yOffset"] = -250.710754394531,
+	},
+	["tempIconCache"] = {
+	},
+	["login_squelch_time"] = 10,
 }

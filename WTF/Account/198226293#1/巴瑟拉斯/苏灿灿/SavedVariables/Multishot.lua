@@ -133,5 +133,14 @@ MultishotPlayerScreens = {
 		"WoWScrnShot_Sun_Dec_14_135232_2014.png", -- [130]
 		"WoWScrnShot_Sun_Dec_14_135233_2014.png", -- [131]
 		"WoWScrnShot_Sun_Dec_14_135234_2014.png", -- [132]
+		"WoWScrnShot_Sun_Dec_21_203958_2014.png", -- [133]
+		"WoWScrnShot_Sun_Dec_21_203959_2014.png", -- [134]
+		"WoWScrnShot_Sun_Dec_21_204000_2014.png", -- [135]
+		"WoWScrnShot_Sun_Dec_21_205514_2014.png", -- [136]
+		"WoWScrnShot_Sun_Dec_21_205515_2014.png", -- [137]
+		"WoWScrnShot_Sun_Dec_21_205516_2014.png", -- [138]
+		"WoWScrnShot_Sun_Dec_21_205515_2014.png", -- [139]
+		"WoWScrnShot_Sun_Dec_21_205516_2014.png", -- [140]
+		"WoWScrnShot_Sun_Dec_21_205517_2014.png", -- [141]
 	},
 }

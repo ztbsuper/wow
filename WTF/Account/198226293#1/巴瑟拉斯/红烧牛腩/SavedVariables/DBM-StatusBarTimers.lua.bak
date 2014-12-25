@@ -5,7 +5,7 @@ DBT_PersistentOptions = {
 		["TimerPoint"] = "TOPRIGHT",
 		["TimerX"] = -223,
 		["HugeTimerX"] = 0,
-		["TimerY"] = -260,
 		["HugeTimerY"] = -120,
+		["TimerY"] = -260,
 	},
 }

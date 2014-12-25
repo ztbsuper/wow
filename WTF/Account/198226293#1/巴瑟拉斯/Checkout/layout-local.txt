@@ -30,8 +30,8 @@ H: 137
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
-X: -130
-Y: -22
+X: -47
+Y: 0
 W: 32
 H: 32
 Frame: PSFeamain1

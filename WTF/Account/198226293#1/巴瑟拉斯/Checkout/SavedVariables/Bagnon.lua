@@ -3,9 +3,9 @@ BagnonFrameSettings = {
 	["frames"] = {
 		["inventory"] = {
 			["itemFrameColumns"] = 12,
-			["dataBrokerObject"] = "WeakAuras",
-			["y"] = 283.600006103516,
-			["x"] = -302.933471679688,
+			["dataBrokerObject"] = "BugSack",
+			["y"] = 373.199981689453,
+			["x"] = -269.866821289063,
 		},
 		["voidstorage"] = {
 			["y"] = 327.799896240234,
